@@ -6,15 +6,15 @@ body {
 
  /* Mini Stoof sprite anim. */
 #sprite { 
-    width: 68px;
-    height: 68px;
-    background: url(../images/final_anim_strip.png);
+    width: 100px;
+    height: 100px;
+    background: url(../images/stoofs_gif_v3.png);
     animation: play 1.0s steps(6) infinite;
 } 
 
  /* Rule for playing the sprite animation */
 @keyframes play {
-    100% { background-position: -408px;}
+    100% { background-position: -600px;}
 }
 
 header {
