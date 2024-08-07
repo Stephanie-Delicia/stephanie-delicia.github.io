@@ -9,7 +9,7 @@ body {
     width: 68px;
     height: 68px;
     background: url(../images/final_anim_strip.png);
-    animation: play 1.5s steps(6) infinite;
+    animation: play 1.3s steps(6) infinite;
 } 
 
  /* Rule for playing the sprite animation */
