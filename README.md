@@ -1,3 +1,3 @@
-# It's a mini me!
+# Personal Website
 Fear the stubby one
 <img src="./gif.gif"/>
