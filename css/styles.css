@@ -6,9 +6,9 @@ body {
 
  /* Mini stoof sprite animation */
 #sprite { 
-    width: 100px;
-    height: 100px;
-    background: url(../images/stoofs_gif_v3.png);
+    width: 68px;
+    height: 68px;
+    background: url(../images/final_anim_strip.png);
     animation: play 1.2s steps(6) infinite;
 } 
 
