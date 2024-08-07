@@ -14,7 +14,7 @@ body {
 
  /* Rule for playing the sprite animation */
 @keyframes play {
-    100% { background-position: 0px;}
+    100% { background-position: 408px;}
 }
 
 header {
