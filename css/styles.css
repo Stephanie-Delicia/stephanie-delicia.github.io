@@ -4,17 +4,17 @@ body {
     font-family:sans-serif;
 }
 
- /* Mini Stoof sprite anim. */
+ /* Mini Stoof sprite anim. It contains 6 frames. */
 #sprite { 
     width: 68px;
     height: 68px;
     background: url(../images/final_anim_strip.png);
-    animation: play 1.3s steps(6) infinite;
+    animation: sprite_anim 1.3s steps(6) infinite;
 } 
 
  /* Rule for playing the sprite animation */
-@keyframes play {
-    100% { background-position: 408px;}
+@keyframes sprite_anim {
+    100% { background-position: calc(width(sprite) * 6);}
 }
 
 header {
