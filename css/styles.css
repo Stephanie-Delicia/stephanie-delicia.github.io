@@ -4,28 +4,8 @@ body {
     font-family:sans-serif;
 }
 
- /* Mini Stoof sprite anim. It contains 6 frames. */
-#sprite { 
-    width: 68px;
-    height: 68px;
-    background: url(../images/final_anim_strip.png);
-    animation: sprite_anim 1.3s steps(6) infinite;
-} 
-
- /* Rule for playing the sprite animation */
-@keyframes sprite_anim {
-    100% { background-position: calc(width(sprite) * 6)px; }
-}
-
 header {
     font-size: 25px;
-}
-
-#box1 {
-    width: 550px;
-    padding: 10px;
-    border: 4px solid rgb(87, 25, 187);
-    margin: 0;
 }
 
 .button {
@@ -40,4 +20,44 @@ header {
 	border: groove;
 	border-color: #6699cc;
 	border-width : 2;
-}        
+}    
+
+/* -------------------------  Mini Stoof sprite element. It contains 6 frames -------------------------*/
+#sprite { 
+    width: 68px;
+    height: 68px;
+    background: url(../images/final_anim_strip.png);
+    animation: sprite_anim 1.3s steps(6) infinite;
+} 
+
+@keyframes sprite_anim {
+    100% { background-position: /*calc(width(sprite) * 6)*/ 408px; }
+}
+
+/* ------------------------- Navigation Bar -------------------------*/
+.topnav {
+    background-color: #eefcff;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #83a2c5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #5a8198;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
