@@ -35,13 +35,13 @@ header {
 }
 
 /* ------------------------- Navigation Bar -------------------------*/
-.topnav {
+.homeNav {
     background-color: #eefcff;
     overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
-  .topnav a {
+  .homeNav a {
     float: left;
     color: #83a2c5;
     text-align: center;
@@ -51,13 +51,13 @@ header {
   }
   
   /* Change the color of links on hover */
-  .topnav a:hover {
+  .homeNav a:hover {
     background-color: #5a8198;
     color: black;
   }
   
   /* Add a color to the active/current link */
-  .topnav a.active {
+  .homeNav a.active {
     background-color: #04AA6D;
     color: white;
   }
