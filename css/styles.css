@@ -1,31 +1,16 @@
 body {
-    color: rgb(149, 81, 100);
+    color: rgb(3, 14, 62);
     text-align: left center;
     font-family:sans-serif;
 }
-
-header {
-    font-size: 25px;
-}
-
-.button {
-	padding-left: .6em;
-	padding-right: .6em;
-	padding-top: 0.2em;
-	padding-bottom: 0.2em;
-	color: #000000;
-	background: #d5e8fb;
-	font-weight: bold;
-	font-size: 100%;
-	border: groove;
-	border-color: #6699cc;
-	border-width : 2;
-}    
 
 /* -------------------------  Mini Stoof sprite element. It contains 6 frames -------------------------*/
 #sprite { 
     width: 68px;
     height: 68px;
+    right: 15px;
+    float: left;
+    position: relative;
     background: url(../images/final_anim_strip.png);
     animation: sprite_anim 1.3s steps(6) infinite;
 } 
@@ -38,26 +23,71 @@ header {
 .homeNav {
     background-color: #eefcff;
     overflow: hidden;
+    position: absolute;
+    width: 100%;
   }
   
-  /* Style the links inside the navigation bar */
-  .homeNav a {
+  /* ---------------------- Style the links inside the navigation bar */
+  .homeNav tabName {
     float: left;
-    color: #83a2c5;
+    color: #041b36;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
+  }
+
+  .homeNav tab {
+    float: right;
+    color: #041a32;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
   }
   
   /* Change the color of links on hover */
-  .homeNav a:hover {
-    background-color: #5a8198;
+  .homeNav tab:hover {
+    background-color: #b6d5e7;
     color: black;
   }
   
   /* Add a color to the active/current link */
-  .homeNav a.active {
-    background-color: #04AA6D;
+  .homeNav tab.active {
+    background-color: #046aaa;
     color: white;
+  }
+
+  /* --------------------- Different Content Boxes ---------------- */
+  .aboutmeContent {
+    background-color: #ddd;
+    padding: 10px;
+    height: 200px; 
+  }
+
+  .skillsContent {
+    background-color: #ddd;
+    padding: 10px;
+    height: 200px;
+  }
+
+  .experiencesContent {
+    background-color: #ddd;
+    padding: 10px;
+    height: 200px;
+  }
+
+  .contactContent {
+    background-color: #ddd;
+    padding: 10px;
+    height: 200px;
+  }
+
+  .introContent {
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:1%;
   }
