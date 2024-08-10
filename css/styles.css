@@ -2,8 +2,8 @@ body {
     color: rgb(3, 14, 62);
     text-align: left center;
     font-family: Arial;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     display: grid;
 }
 
@@ -28,6 +28,9 @@ body {
     overflow: hidden;
     grid-row: 1;
     width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
   }
   /* ---------------------- Style the links inside the navigation bar */
   .homeNav tabName {
