@@ -2,7 +2,9 @@ body {
     color: rgb(3, 14, 62);
     text-align: left center;
     font-family: Arial;
-    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
 }
 
 /* -------------------------  Mini Stoof sprite element. It contains 6 frames -------------------------*/
@@ -11,7 +13,6 @@ body {
     height: 68px;
     right: 15px;
     float: left;
-    position: relative;
     background: url(../images/final_anim_strip.png);
     animation: sprite_anim 1.3s steps(6) infinite;
 } 
@@ -25,7 +26,7 @@ body {
     font-family: Arial;
     background-color: #eefcff;
     overflow: hidden;
-    position: absolute;
+    grid-row: 1;
     width: 100%;
   }
   /* ---------------------- Style the links inside the navigation bar */
@@ -62,39 +63,33 @@ body {
   /* --------------------- Intro Content Box ---------------- */
 
   .introContent {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    grid-row: 2;
     font-size: 18px;
-    position: absolute;
     top: 100px;
-    margin-left:10%;
-    margin-right:10%;
-    margin-bottom:1%;
   }
 
   /* --------------------- General Content Boxes ---------------- */
   .generalContent {
+    grid-row: 3;
     background-color: #eefcff;
     overflow: hidden;
     height: 500px;
-    margin-left: 10%;
-    margin-right: 10%;
     top: 200px;
-    position: relative;
+    padding: 16px;
   }
 
   .generalContent header {
-    padding: 16px;
-    position: absolute;
-    color: black;
-    float: left;
-    text-decoration: none;
     font-size: 20px;
   }
 
   .generalContent content {
-    padding: 18px;
-    position: absolute;
+    float: left;
+    padding-top: 10px;
     font-size: 18px;
-    top: 30px;
   }
 
       /* --------------------- Contact Me Box ---------------- */
