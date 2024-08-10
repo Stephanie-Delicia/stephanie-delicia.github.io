@@ -1,7 +1,7 @@
 body {
     color: rgb(3, 14, 62);
     text-align: left center;
-    font-family:sans-serif;
+    font-family: Arial;
 }
 
 /* -------------------------  Mini Stoof sprite element. It contains 6 frames -------------------------*/
@@ -21,6 +21,7 @@ body {
 
 /* ------------------------- Navigation Bar -------------------------*/
 .homeNav {
+    font-family: Arial;
     background-color: #eefcff;
     overflow: hidden;
     position: absolute;
@@ -58,32 +59,10 @@ body {
     color: white;
   }
 
-  /* --------------------- Different Content Boxes ---------------- */
-  .aboutmeContent {
-    background-color: #ddd;
-    padding: 10px;
-    height: 200px; 
-  }
-
-  .skillsContent {
-    background-color: #ddd;
-    padding: 10px;
-    height: 200px;
-  }
-
-  .experiencesContent {
-    background-color: #ddd;
-    padding: 10px;
-    height: 200px;
-  }
-
-  .contactContent {
-    background-color: #ddd;
-    padding: 10px;
-    height: 200px;
-  }
+  /* --------------------- Intro Content Box ---------------- */
 
   .introContent {
+    font-family: Arial;
     font-size: 20px;
     position: relative;
     top: 100px;
@@ -91,3 +70,22 @@ body {
     margin-right:10%;
     margin-bottom:1%;
   }
+
+  /* --------------------- General Content Boxes ---------------- */
+  .generalContent {
+    background-color: #eefcff;
+    padding: 10px;
+    height: 200px; 
+    top: 150px;
+    position: relative;
+  }
+
+  .generalContent header {
+    color: black;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+      /* --------------------- Contact Me Box ---------------- */
