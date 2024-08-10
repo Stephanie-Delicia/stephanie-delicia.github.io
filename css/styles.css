@@ -2,6 +2,7 @@ body {
     color: rgb(3, 14, 62);
     text-align: left center;
     font-family: Arial;
+    position: relative;
 }
 
 /* -------------------------  Mini Stoof sprite element. It contains 6 frames -------------------------*/
@@ -27,7 +28,6 @@ body {
     position: absolute;
     width: 100%;
   }
-  
   /* ---------------------- Style the links inside the navigation bar */
   .homeNav tabName {
     float: left;
@@ -35,7 +35,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .homeNav tab {
@@ -62,9 +62,8 @@ body {
   /* --------------------- Intro Content Box ---------------- */
 
   .introContent {
-    font-family: Arial;
-    font-size: 20px;
-    position: relative;
+    font-size: 18px;
+    position: absolute;
     top: 100px;
     margin-left:10%;
     margin-right:10%;
@@ -74,18 +73,28 @@ body {
   /* --------------------- General Content Boxes ---------------- */
   .generalContent {
     background-color: #eefcff;
-    padding: 10px;
-    height: 200px; 
-    top: 150px;
+    overflow: hidden;
+    height: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 200px;
     position: relative;
   }
 
   .generalContent header {
+    padding: 16px;
+    position: absolute;
     color: black;
     float: left;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    font-size: 20px;
+  }
+
+  .generalContent content {
+    padding: 18px;
+    position: absolute;
+    font-size: 18px;
+    top: 30px;
   }
 
       /* --------------------- Contact Me Box ---------------- */
