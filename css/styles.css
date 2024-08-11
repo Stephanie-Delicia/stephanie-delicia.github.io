@@ -8,7 +8,6 @@ body {
 #sprite { 
     width: 68px;
     height: 68px;
-    right: 15px;
     float: left;
     background: url(../images/final_anim_strip.png);
     animation: sprite_anim 1.3s steps(6) infinite;
@@ -60,7 +59,7 @@ body {
   }
 
   .content {
-    padding-top: 40px;
+    padding-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -71,19 +70,14 @@ body {
     width: 100%;
   }
   
-  .sticky + .content {
-    padding-top: 60px;
-  }
-
 
   /* --------------------- Intro Content Box ---------------- */
 
   .introContent {
+    padding-left: 10px;
     background-color: #ffffff;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     overflow: hidden;
-    grid-row: 2;
     font-size: 20px;
   }
 
