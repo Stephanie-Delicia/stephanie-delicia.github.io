@@ -1,6 +1,4 @@
 body {
-    color: rgb(3, 14, 62);
-    text-align: left center;
     font-family: Arial;
 }
 
@@ -19,47 +17,58 @@ body {
 }
 
 /* ------------------------- Navigation Bar -------------------------*/
-.homeNav {
+#homeNav {
     font-family: Arial;
     background-color: #eefcff;
     overflow: hidden;
-    width: 100%;
     top: 0;
+    position: fixed;
+    width: 100%;
   }
   /* ---------------------- Style the links inside the navigation bar */
-  .homeNav tabName {
+  #homeNav tabName {
     float: left;
     text-align: center;
-    padding: 14px 16px;
+    display: block;
+    padding: 14px;
     text-decoration: none;
     font-size: 20px;
   }
 
-  .homeNav tab {
+  #homeNav tab {
     float: right;
     color: #041a32;
     text-align: center;
-    padding: 14px 16px;
+    display: block;
+    padding: 14px;
     text-decoration: none;
     font-size: 15px;
   }
   
   /* Change the color of links on hover */
-  .homeNav tab:hover {
+  #homeNav tab:hover {
     background-color: #b6d5e7;
     color: black;
   }
   
   /* Add a color to the active/current link */
-  .homeNav tab.active {
+  #homeNav tab.active {
     background-color: #046aaa;
     color: white;
   }
 
+  .content {
+    padding: 40px;
+  }
+  
   .sticky {
     position: fixed;
     top: 0;
     width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
   }
 
 
