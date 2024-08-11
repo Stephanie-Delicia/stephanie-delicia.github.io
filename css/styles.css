@@ -60,7 +60,9 @@ body {
   }
 
   .content {
-    padding: 40px;
+    padding-top: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
   }
   
   .sticky {
@@ -83,8 +85,6 @@ body {
     overflow: hidden;
     grid-row: 2;
     font-size: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
   }
 
   /* --------------------- General Content Boxes ---------------- */
@@ -95,8 +95,6 @@ body {
     height: 500px;
     top: 200px;
     padding: 16px;
-    margin-left: 20%;
-    margin-right: 20%;
   }
 
   .generalContent header {
