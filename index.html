@@ -7,65 +7,69 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 
-<!--------------------- Top of the page --------------------->
+<!--------------------- Navigation --------------------->
 <body>
     <div id="homeNav">
-        <tabName href="javascript:void(0)">            Stephanie Martinez </tabName>
-        <tab href="javascript:void(0)">                Contact    </tab>
-        <tab href="javascript:void(0)">                Experience </tab>
-        <tab href="javascript:void(0)">                Skills     </tab>
-        <tab class="active" href="javascript:void(0)"> About Me   </tab>
+        <tabName>            Stephanie Martinez </tabName>
+        <tab>                Contact    </tab>
+        <tab>                Experience </tab>
+        <tab>                Skills     </tab>
+        <tab class="active"> About Me   </tab>
+    </div> 
+
+    <!-- Sticky bar animation -->
+    <script src="js/sticky_bar.js"></script> 
+
+<!--------------------- Intro --------------------->
+
+<div class="content">
+    <div class="introContent"> 
+        <div id="sprite"> </div> 
+        I'm Stephanie Martinez. A recent graduate and enthusiast 
+        for applications of mathematics and programming.
+    </div>
+
+<!--------------------- About Me page --------------------->
+    <div class="generalContent">
+        <header id="aboutMe"> About Me </header> 
+
+        <content>I recently graduated from Northeastern University with 
+            a BS in Computer Science and Mathematics. 
+        </content>
+    </div> 
+
+<!--------------------- Skills page --------------------->
+    <div class="generalContent">
+        <header id="skills"> Skills </header>
+
+        <content>
+            Languages: Python, R, MATLAB, Java, TypeScript, Kotlin
+        </content>
+
+        <content> Programming Concepts: Software Engineering Principles, Mobile Application Development, 
+            MVC and MVVM patterns, Object-oriented principles, Version Control, Testing, Algorithms (dynamic programming) </content>
+
+        <content>
+            Mathematics: Statistics & Probability, Differential Calculus, Numerical Analysis, 
+            Real Analysis, Graph Theory, Complex Analysis, Linear Algebra, Machine Learning
+        </content>
     </div> 
 
 
-<!-- Sticky bar animation -->
-<script src="js/sticky_bar.js"></script> 
-
-<div class="content">
-<div class="introContent"> 
-    <div id="sprite"> </div> 
-    I'm Stephanie Martinez. A recent graduate and enthusiast 
-    for applications of mathematics and programming.
-</div>
-
-<!--------------------- About Me page --------------------->
-<div class="generalContent">
-    <header id="aboutMe"> About Me. </header> 
-    
-</div> 
-
-<!--------------------- Skills page --------------------->
-<div class="generalContent">
-    <header id="skills"> Skills </header>
-
-    <content>
-        Languages: Python, R, MATLAB, Java, TypeScript, Kotlin
-    </content>
-
-    <content> Programming Concepts: Software Engineering Principles, Mobile Application Development, 
-        MVC and MVVM patterns, Object-oriented principles, Version Control, Testing, Algorithms (dynamic programming) </content>
-
-    <content>
-        Mathematics: Statistics & Probability, Differential Calculus, Numerical Analysis, 
-        Real Analysis, Graph Theory, Complex Analysis, Linear Algebra, Machine Learning
-    </content>
-</div> 
-
-
 <!--------------------- Experience page --------------------->
-<div class="generalContent">
-    <header id="experience"> Experience </header>
-</div> 
+    <div class="generalContent">
+        <header id="experience"> Experience </header>
+    </div> 
 
 
 <!--------------------- Contact page --------------------->
-<div class="generalContent">
-    <header id="contact"> Contact </header>
-</div> 
+    <div class="generalContent">
+        <header id="contact"> Contact </header>
+        <content>I can be reached at:</content>
+        <content>Email: smartinezdelicia@gmail.com</content>
 
+    </div> 
 </div>
-
-
 </body>
 </html>
 
