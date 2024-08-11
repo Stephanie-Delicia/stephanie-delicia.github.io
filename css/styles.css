@@ -28,9 +28,6 @@ body {
     overflow: hidden;
     grid-row: 1;
     width: 100%;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
   }
   /* ---------------------- Style the links inside the navigation bar */
   .homeNav tabName {
@@ -62,6 +59,14 @@ body {
     background-color: #046aaa;
     color: white;
   }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
 
   /* --------------------- Intro Content Box ---------------- */
 
