@@ -2,9 +2,6 @@ body {
     color: rgb(3, 14, 62);
     text-align: left center;
     font-family: Arial;
-    margin-left: 20%;
-    margin-right: 20%;
-    display: grid;
 }
 
 /* -------------------------  Mini Stoof sprite element. It contains 6 frames -------------------------*/
@@ -26,13 +23,12 @@ body {
     font-family: Arial;
     background-color: #eefcff;
     overflow: hidden;
-    grid-row: 1;
     width: 100%;
+    top: 0;
   }
   /* ---------------------- Style the links inside the navigation bar */
   .homeNav tabName {
     float: left;
-    color: #041b36;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -64,7 +60,6 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    overflow: hidden;
   }
 
 
@@ -77,6 +72,8 @@ body {
     overflow: hidden;
     grid-row: 2;
     font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   /* --------------------- General Content Boxes ---------------- */
@@ -87,6 +84,8 @@ body {
     height: 500px;
     top: 200px;
     padding: 16px;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   .generalContent header {
