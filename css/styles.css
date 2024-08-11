@@ -59,7 +59,7 @@ body {
   }
 
   .content {
-    padding-top: 100px;
+    padding-top: 120px;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -76,7 +76,7 @@ body {
   .introContent {
     padding-left: 10px;
     background-color: #ffffff;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
     overflow: hidden;
     font-size: 20px;
   }
