@@ -6,35 +6,34 @@
     <title>Stephanie Martinez</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
-
+<!-- hamburger icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--------------------- Navigation --------------------->
 <body>
     <div id="homeNav">
-        <tabName>            Stephanie Martinez </tabName>
-        <tab>                Contact    </tab>
-        <tab>                Experience </tab>
-        <tab>                Skills     </tab>
-        <tab class="active"> About Me   </tab>
+        <tabName> Stephanie Martinez </tabName>
+        <a href="#contact">     <tab>                Contact     </tab></a>
+        <a href="#experience">  <tab>                Experience  </tab></a>
+        <a href="#skills">      <tab>                Skills      </tab></a>
+        <a href="#aboutMe">     <tab class="active"> About Me    </tab></a>
     </div> 
 
     <!-- Sticky bar animation -->
     <script src="js/sticky_bar.js"></script> 
+    
 
 <!--------------------- Intro --------------------->
 
 <div class="content">
-
     <div id="sprite"> </div> 
-
     <div class="introContent"> 
         I'm Stephanie Martinez. A recent graduate and enthusiast 
         for applications of mathematics and programming.
     </div>
 
 <!--------------------- About Me page --------------------->
-    <div class="generalContent">
-        <header id="aboutMe"> About Me </header> 
-
+    <div class="generalContent" id="aboutMe">
+        <header> About Me </header> 
         <content>I recently graduated from Northeastern University with 
             a BS in Computer Science and Mathematics. 
         </content>
@@ -63,14 +62,13 @@
         <header id="experience"> Experience </header>
     </div> 
 
-
 <!--------------------- Contact page --------------------->
     <div class="generalContent">
         <header id="contact"> Contact </header>
-        <content>I can be reached at:</content>
-        <content>Email: smartinezdelicia@gmail.com</content>
+        <content>I can be reached at </content>
+        <content>smartinezdelicia@gmail.com</content>
+    </div>
 
-    </div> 
 </div>
 </body>
 </html>

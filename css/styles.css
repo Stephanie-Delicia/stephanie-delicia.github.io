@@ -1,3 +1,7 @@
+html {  
+  scroll-behavior: smooth;  
+}
+
 body {
   /* for SOME reason, setting margin to 0 eliminates any gaps to the left. */
   margin: 0;
