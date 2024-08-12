@@ -12,14 +12,17 @@
 <body>
     <div id="homeNav">
         <a href="#top"><tabName> Stephanie Martinez </tabName></a>
-        <a href="#contact">     <tab>                Contact     </tab></a>
-        <a href="#experience">  <tab>                Experience  </tab></a>
-        <a href="#skills">      <tab>                Skills      </tab></a>
-        <a href="#aboutMe">     <tab class="active"> About Me    </tab></a>
+        <a href="#contact">    <tab onclick="tab_clicked(this);" id = "content_tab">                Contact     </tab></a>
+        <a href="#experience"> <tab onclick="tab_clicked(this);" id = "exp_tab">                Experience  </tab></a>
+        <a href="#skills">     <tab onclick="tab_clicked(this);" id = "skills_tab">                Skills      </tab></a>
+        <a href="#aboutMe">    <tab class="active" onclick="tab_clicked(this);" id = "aboutMe_tab"> About Me    </tab></a>
     </div> 
 
     <!-- Sticky bar animation -->
     <script src="js/sticky_bar.js"></script> 
+
+    <!-- Tab clicked animation -->
+    <script src="js/nav_tab.js"></script> 
     
 
 <!--------------------- Intro --------------------->
