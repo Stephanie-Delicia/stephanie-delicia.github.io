@@ -93,7 +93,7 @@ body {
     height: 500px;
     top: 200px;
     padding: 16px;
-    scroll-margin-top: 3em;
+    scroll-margin-top: 5em;
   }
 
   .generalContent header {
