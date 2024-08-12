@@ -25,7 +25,7 @@ body {
 #homeNav {
     font-family: Arial;
     background-color: #eefcff;
-    overflow: hidden;
+    overflow: clip;
     top: 0;
     position: fixed;
     width: 100%;
@@ -81,7 +81,7 @@ body {
     padding-left: 10px;
     background-color: #ffffff;
     padding-bottom: 70px;
-    overflow: hidden;
+    overflow: clip;
     font-size: 20px;
   }
 
@@ -89,10 +89,11 @@ body {
   .generalContent {
     grid-row: 3;
     background-color: #eefcff;
-    overflow: hidden;
+    overflow: clip;
     height: 500px;
     top: 200px;
     padding: 16px;
+    scroll-margin-top: 3em;
   }
 
   .generalContent header {
