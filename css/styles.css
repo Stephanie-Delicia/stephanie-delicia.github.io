@@ -41,12 +41,11 @@ body {
     color:#000000;
   }
 
-
-
   #homeNav tab {
     float: right;
     color: #041a32;
     text-align: center;
+    width: 80px;
     display: block;
     padding: 14px;
     text-decoration: none;
@@ -57,12 +56,14 @@ body {
   #homeNav tab:hover {
     background-color: #b6d5e7;
     color: black;
+    border-radius: 10px;
   }
   
   /* Add a color to the active/current link */
   #homeNav tab.active {
-    background-color: #046aaa;
+    background-color: #417ea4;
     color: white;
+    border-radius: 10px;
   }
 
   .content {
@@ -87,7 +88,7 @@ body {
     padding-bottom: 80px;
     overflow: clip;
     font-size: 22px;
-    color:#1d5281
+    color:#1d5281;
   }
 
   /* --------------------- General Content Boxes ---------------- */
@@ -95,10 +96,11 @@ body {
     grid-row: 3;
     background-color: #eefcff;
     overflow: clip;
-    height: 500px;
+    height: 400px;
     top: 200px;
     padding: 16px;
     scroll-margin-top: 5em;
+    border-radius: 10px;
   }
 
   .generalContent header {
@@ -108,7 +110,7 @@ body {
   .generalContent content {
     float: left;
     padding-top: 10px;
-    font-size: 18px;
+    font-size: 18;
   }
 
   .generalContent line {
