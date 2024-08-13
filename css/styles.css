@@ -50,6 +50,9 @@ body {
     padding: 14px;
     text-decoration: none;
     font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   /* Change the color of links on hover */
@@ -104,7 +107,7 @@ body {
   }
 
   .generalContent header {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .generalContent content {
