@@ -48,7 +48,7 @@ body {
     display: block;
     padding: 14px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
   }
   
   /* Change the color of links on hover */
@@ -65,8 +65,8 @@ body {
 
   .content {
     padding-top: 120px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 13%;
+    margin-right: 13%;
   }
   
   .sticky {
@@ -100,7 +100,7 @@ body {
   }
 
   .generalContent header {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .generalContent content {
