@@ -8,7 +8,7 @@ body {
   font-family: Baskerville;
 }
 
-/* -------------------------  Mini Stoof sprite element. It contains 6 frames -------------------------*/
+/* -------------------------  Mini Stoof sprite elements. -------------------------*/
 #sprite { 
     width: 68px;
     height: 68px;
@@ -19,6 +19,18 @@ body {
 
 @keyframes sprite_anim {
     100% { background-position: 408px; }
+}
+
+#sprite2 { 
+  width: 68px;
+  height: 68px;
+  float: left;
+  background: url(../images/sprite2.png);
+  animation: sprite_anim2 2.0s steps(10) infinite;
+} 
+
+@keyframes sprite_anim2 {
+  100% { background-position: 680; }
 }
 
 /* ------------------------- Navigation Bar -------------------------*/
