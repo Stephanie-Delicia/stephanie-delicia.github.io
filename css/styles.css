@@ -10,8 +10,8 @@ body {
 
 /* -------------------------  Mini Stoof sprite elements. -------------------------*/
 #sprite { 
-    width: 68;
-    height: 68px;
+    width:68;
+    height:68;
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
@@ -21,7 +21,7 @@ body {
 } 
 
 @keyframes sprite_anim {
-    100% { background-position: 408px; }
+    100% { background-position: 408; }
 }
 
 #sprite2 { 
@@ -31,7 +31,7 @@ body {
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
   float: left;
-  background: url(../images/sprite2.png);
+  background: url(../images/mail_sprite.png);
   animation: sprite_anim2 2.0s steps(10) infinite;
 } 
 
@@ -103,8 +103,7 @@ body {
   /* --------------------- Intro Content Box ---------------- */
 
   .introContent {
-    padding-left: 85px;
-    padding-right: 17px;
+    padding-left: 80px;
     background-color: #ffffff;
     padding-bottom: 80px;
     overflow: clip;
