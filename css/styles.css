@@ -89,8 +89,8 @@ body {
 
 .content {
   padding-top: 140px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .sticky {
@@ -115,7 +115,7 @@ body {
 .generalContent {
   background-color: #eefcff;
   overflow: hidden;
-  height: 500px;
+  height: 600px;
   top: 200px;
   padding: 16px;
   scroll-margin-top: 5em;
