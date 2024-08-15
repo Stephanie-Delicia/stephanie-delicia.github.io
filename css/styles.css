@@ -156,6 +156,7 @@ body {
   
   a:visited {
     text-decoration: none;
+    color: rgb(232, 109, 9);
   }
   
   a:hover {
