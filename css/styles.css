@@ -30,7 +30,7 @@ body {
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
-  float: left;
+  margin: auto;
   background: url(../images/mail_sprite.png);
   animation: sprite_anim2 2.0s steps(10) infinite;
 } 
@@ -67,7 +67,7 @@ body {
     display: block;
     padding: 14px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,41 +87,41 @@ body {
     border-radius: 10px;
   }
 
-  .content {
-    padding-top: 140px;
-    margin-left: 15%;
-    margin-right: 15%;
-  }
+.content {
+  padding-top: 140px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
   
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
 
-  /* --------------------- Intro Content Box ---------------- */
+/* --------------------- Intro Content Box ---------------- */
 
-  .introContent {
-    padding-left: 80px;
-    background-color: #ffffff;
-    padding-bottom: 80px;
-    overflow: clip;
-    font-size: 22px;
-    color:#1d5281;
-  }
+.introContent {
+  padding-left: 80px;
+  background-color: #ffffff;
+  padding-bottom: 80px;
+  overflow: clip;
+  font-size: 22px;
+  color:#1d5281;
+}
 
-  /* --------------------- General Content Boxes ---------------- */
-  .generalContent {
-    background-color: #eefcff;
-    overflow: hidden;
-    height: 400px;
-    top: 200px;
-    padding: 16px;
-    scroll-margin-top: 5em;
-    border-radius: 10px;
-    padding-bottom: 20px;
-  }
+/* --------------------- General Content Boxes ---------------- */
+.generalContent {
+  background-color: #eefcff;
+  overflow: hidden;
+  height: 500px;
+  top: 200px;
+  padding: 16px;
+  scroll-margin-top: 5em;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
 
   .generalContent header {
     font-size: 22px;
@@ -142,4 +142,31 @@ body {
     display: block;
   }
 
-      /* --------------------- Contact Me Box ---------------- */
+/* --------------------- Contact Box ---------------- */
+.contact-form-box {
+  padding-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+h2 {
+  margin-top: 0;
+  font-family: Baskerville;
+  text-align: center;
+}
+
+.form-group {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#submit-button {
+  margin: auto;
+  text-align: center;
+}
