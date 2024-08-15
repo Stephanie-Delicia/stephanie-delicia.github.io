@@ -143,6 +143,30 @@ body {
     display: block;
   }
 
+  .generalContent smolContent {
+    float: left;
+    color: #417ea4;
+    font-size: 15;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: rgb(232, 109, 9);
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(232, 109, 9);
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
 /* --------------------- Contact Box ---------------- */
 .contact-form-box {
   padding-top: 20px;
@@ -174,7 +198,7 @@ input {
 
 textarea {
   width: 80%;
-  height:50%
+  height:40%
 }
 
 button {
