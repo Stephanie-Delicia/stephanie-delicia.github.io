@@ -10,12 +10,12 @@ body {
 
 /* -------------------------  Mini Stoof sprite elements. -------------------------*/
 #sprite { 
-    width:68;
-    height:68;
+    width: 68px;
+    height: 68px;
+    margin: auto;
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
-    float: left;
     background: url(../images/final_anim_strip.png);
     animation: sprite_anim 1.3s steps(6) infinite;
 } 
@@ -37,6 +37,18 @@ body {
 
 @keyframes sprite_anim2 {
   100% { background-position: 680; }
+}
+
+/* --------------------- Intro Content Box ---------------- */
+
+.introContent {
+  padding-top: 20px;
+  background-color: #ffffff;
+  padding-bottom: 80px;
+  font-size: 22px;
+  margin: auto;
+  text-align: center;
+  color: #1d5281;
 }
 
 /* ------------------------- Navigation Bar -------------------------*/
@@ -99,17 +111,6 @@ body {
   width: 100%;
 }
   
-
-/* --------------------- Intro Content Box ---------------- */
-
-.introContent {
-  padding-left: 80px;
-  background-color: #ffffff;
-  padding-bottom: 80px;
-  overflow: clip;
-  font-size: 22px;
-  color:#1d5281;
-}
 
 /* --------------------- General Content Boxes ---------------- */
 .generalContent {
