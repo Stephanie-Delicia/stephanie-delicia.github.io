@@ -170,7 +170,6 @@ body {
 
 /* --------------------- Contact Box ---------------- */
 .contact-form-box {
-  padding-top: 20px;
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
@@ -194,15 +193,28 @@ h2 {
 }
 
 input {
+  height: 30px;
+  border-radius: 10px;
+  font-family: Baskerville;
   width: 80%;
+  background-color: #ffffff;
 }
 
 textarea {
+  border-radius: 10px;
+  font-family: Baskerville;
   width: 80%;
   height: 33%;
+  background-color: #ffffff;
 }
 
 button {
+  text-decoration: none;
+  font-family: Baskerville;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 30px;
+  width: 60px;
   margin: auto;
   display:block;
 }
