@@ -28,6 +28,7 @@ body {
 }
 
 #sprite2 { 
+  padding-left: 9px;
   width: 68px;
   height: 68px;
   image-rendering: pixelated;
