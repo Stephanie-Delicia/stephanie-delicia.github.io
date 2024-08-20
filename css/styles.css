@@ -119,12 +119,15 @@ body {
 .generalContent {
   background-color: #eefcff;
   overflow: hidden;
-  height: 600px;
+
   top: 200px;
   padding: 16px;
   scroll-margin-top: 5em;
   border-radius: 10px;
   padding-bottom: 20px;
+  width: 100%;
+  display: inline-block;
+  height: fit-content;
 }
 
   .generalContent header {
@@ -159,6 +162,7 @@ body {
   
   a:visited {
     text-decoration: none;
+    color: #45a6bb;
   }
   
   a:hover {
@@ -203,6 +207,7 @@ textarea {
   width: 80%;
   height: 33%;
   background-color: #ffffff;
+  resize: none; 
 }
 
 .submit-button {
@@ -243,4 +248,11 @@ input[type=submit] {
 /* Style 'hover' property */
 input[type=submit]:hover {
   background: #6bcae0;
+}
+
+.centerText {
+  font-size: 20;
+  margin: auto;
+  text-align: center;
+  color: #157186;
 }
