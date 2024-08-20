@@ -184,7 +184,7 @@ body {
 
 .form-group {
   text-align: center;
-  margin-top: 5%;
+  margin-top: 2.5%;
 }
 
 input {
@@ -205,7 +205,6 @@ textarea {
   border-radius: 4px;
   font-family: Baskerville;
   width: 80%;
-  height: 33%;
   background-color: #ffffff;
   resize: none; 
 }
@@ -218,6 +217,7 @@ textarea {
   width: 100%;
   margin: auto;
   display:block;
+  font-size: 18px;
 }
 
 /* Add styles to 'label' selector */
@@ -233,12 +233,12 @@ label {
 
 input[type=submit] {
     background: #45a6bb;
+    box-shadow: none;
     margin: 0 auto;
     outline: 0;
     color: white;
     height: 35px;
     border: 0;
-    padding: 12px 24px;
     border-radius: 4px;
     transition: all ease-in-out 0.1s;
     display: inline-block;
