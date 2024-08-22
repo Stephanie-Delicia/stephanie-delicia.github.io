@@ -193,7 +193,7 @@ input {
   border-width: 1px;
   height: 35px;
   font-family: Baskerville;
-  width: 80%;
+  width: 70%;
   background-color: #ffffff;
 }
 
@@ -205,9 +205,10 @@ textarea {
   text-align: left;
   border-radius: 4px;
   font-family: Baskerville;
-  width: 80%;
+  width: 70%;
   background-color: #ffffff;
   resize: none; 
+  height: 300px;
 }
 
 .submit-button {
