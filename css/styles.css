@@ -178,7 +178,7 @@ body {
 /* --------------------- Contact Box ---------------- */
 .contact-form-box {
   background-color: #fff;
-  max-width: 600px;
+  max-width: 500px;
   text-align: center;
   margin: auto;
 }
@@ -194,7 +194,7 @@ input {
   border-width: 1px;
   height: 35px;
   font-family: Baskerville;
-  width: 70%;
+  width: 60%;
   background-color: #ffffff;
 }
 
@@ -206,7 +206,7 @@ textarea {
   text-align: left;
   border-radius: 4px;
   font-family: Baskerville;
-  width: 70%;
+  width: 60%;
   background-color: #ffffff;
   resize: none; 
   height: 250px;
