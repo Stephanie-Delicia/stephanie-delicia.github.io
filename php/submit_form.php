@@ -3,6 +3,10 @@ $action=$_REQUEST['action'];
 if ($action=="") /* if no action made, just display */
     {
     ?>
+    <head lang="en-US">
+    <title>Stephanie Martinez</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    </head>
         <div class="contact-form-container">
             <form id="contactForm" action="#" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
