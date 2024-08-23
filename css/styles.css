@@ -130,7 +130,8 @@ body {
 }
 
   .generalContent header {
-    padding: 10px;
+    padding-left: 20px;
+    padding-top: 18px;
     margin: auto;
     font-size: 22px;
     width: 100%;
@@ -138,16 +139,16 @@ body {
 
   .generalContent content {
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     float: left;
-    width: 95%;
+    width: 92%;
     padding-top: 10px;
     font-size: 20;
   }
 
   .generalContent line {
     margin:auto;
-    width: 97%;
+    width: 93%;
     top: 50%;
     height: 1px;
     background: rgb(0, 0, 0);
