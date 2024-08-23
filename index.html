@@ -7,7 +7,6 @@
 </head>
 <!-- hamburger icon -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<?php include "php/submit_form.php";?>
 
 <!--------------------- Navigation --------------------->
 <body>
@@ -105,9 +104,14 @@
         <header> Contact </header>
         <line></line>
         <div class="centerText"> Feel free to fill out this form or reach me at smartinezdelicia@gmail.com!</div>
+        
         <div class="contact-form-container">
-            <form id="contactForm" action="#" method="POST" enctype="multipart/form-data">
-                <div class="form-group">
+            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+
+            <!-- Replace with your Access Key -->
+            <input type="hidden" name="access_key" value="15153755-60a4-4b79-b5d2-02896b633a5f">
+                
+                <!-- <div class="form-group">
                     <label class="required" for="name"> Name </label>
                     <br>
                     <input type="text"
@@ -116,9 +120,13 @@
                     placeholder="Enter name"
                     value=""required>
                     <span class="error-message" id="nameError"></span>
-                </div>
+                </div> -->
 
-                <div class="form-group">
+                <input type="text" name="name" required>
+                <input type="text" name="email" required>
+                <textarea name="message" required></textarea>
+
+                <!-- <div class="form-group">
                     <label class="required" for="subject">Subject</label>
                     <br>
                     <input type="text"
@@ -146,10 +154,15 @@
                     <textarea id="message"class="input"type="text"name="message"placeholder="Enter message"rows="5"required></textarea>
                     <span class="error-message" id="messageError"></span>
                 </div>
-                <br>
-                <div class="submit-button">
+                <br> -->
+                <!-- <div class="submit-button">
                     <input type="submit" value="Submit">
-                </div>
+                </div> -->
+
+                <input type="submit" value="Submit">
+
+                <!-- Honeypot Spam Protection -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                 
                 <div id="sprite2"> </div> 
                 <br>
