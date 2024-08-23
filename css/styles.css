@@ -11,6 +11,10 @@ body {
   margin: 0;
 }
 
+ul.a {
+  list-style-type: circle;
+}
+
 /* -------------------------  Mini Stoof sprite elements. -------------------------*/
 #sprite { 
     width: 68px;
@@ -154,6 +158,40 @@ body {
     background: rgb(0, 0, 0);
     content: "";
     display: block;
+  }
+
+  .generalContent year {
+    margin: auto;
+    float: right;
+    padding-right: 20;
+    font-size: 16;
+  }
+
+  .generalContent company {
+    font-style: bold;
+    padding-left: 20px;
+    margin: auto;
+    float: left;
+    font-size: 20;
+  }
+
+  .generalContent position {
+    font-style: italic;
+    width: 92%;
+    margin: auto;
+    padding-left: 20px;
+    float: left;
+    bottom: -10px;
+    font-size: 18;
+  }
+
+  .generalContent jobContent {
+    width: 92%;
+    margin: auto;
+    padding-left: 20px;
+    float: left;
+    bottom: -10px;
+    font-size: 18;
   }
 
   .generalContent smolContent {
