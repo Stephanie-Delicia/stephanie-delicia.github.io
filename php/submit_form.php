@@ -3,16 +3,56 @@ $action=$_REQUEST['action'];
 if ($action=="") /* if no action made, just display */
     {
     ?>
-    <form action="" method="POST" enctype="multipart/form-data">
-    <input type="hidden" name="action" value="submit">
-    Your name:<br>
-    <input name="name" type="text" value=""/><br>
-    Your email:<br>
-    <input name="email" type="text" value=""/><br>
-    Your message:<br>
-    <textarea name="message" rows="5"></textarea><br>
-    <input type="submit" value="Send email"/>
-    </form>
+        <div class="contact-form-container">
+            <form id="contactForm" action="#" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label class="required" for="name"> Name </label>
+                    <br>
+                    <input type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter name"
+                    value=""required>
+                    <span class="error-message" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label class="required" for="subject">Subject</label>
+                    <br>
+                    <input type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Enter subject"
+                    value=""required>
+                    <span class="error-message" id="subjectError"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required" for="email_name">Email Address</label>
+                    <br>
+                    <input type="text" 
+                    id="email"
+                    name="email"
+                    placeholder="Enter email"
+                    value=""required>
+                    <span class="error-message" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label class="required" for="message">Message</label>
+                    <br>
+                    <textarea id="message"class="input"type="text"name="message"placeholder="Enter message"rows="5"required></textarea>
+                    <span class="error-message" id="messageError"></span>
+                </div>
+                <br>
+                <div class="submit-button">
+                    <input type="submit" value="Submit">
+                </div>
+                
+                <div id="sprite2"> </div> 
+                <br>
+                </form>
+        </div>
     <?php
     } 
 else /* send the submitted data */
