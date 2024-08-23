@@ -16,6 +16,10 @@ ul.a {
   padding-right: 15;
 }
 
+ul.a li {
+  margin-bottom: 10px;
+}
+
 /* -------------------------  Mini Stoof sprite elements. -------------------------*/
 #sprite { 
     width: 68px;
@@ -169,11 +173,11 @@ ul.a {
   }
 
   .generalContent company {
-    font-style: bold;
+    font-weight: 600;
     padding-left: 20px;
     margin: auto;
     float: left;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .generalContent position {
