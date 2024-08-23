@@ -5,3 +5,8 @@ https://stackoverflow.com/questions/71293065/why-does-overflow-hidden-remove-scr
 
 Selecting elements by their class:
 https://stackoverflow.com/questions/2155737/remove-css-class-from-element-with-javascript-no-jquery
+
+To send emails thru a contact form is more involved than just HTML and CSS:
+https://stackoverflow.com/questions/45308491/can-i-use-just-html-and-css-to-make-a-contact-form
+
+You need a server side programming language... And GitHub only hosts STATIC websites.
