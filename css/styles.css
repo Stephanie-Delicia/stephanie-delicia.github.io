@@ -126,7 +126,7 @@ body {
   scroll-margin-top: 7em;
   border-radius: 10px;
   padding-bottom: 20px;
-  /* width: 100%; */
+  width: 90%;
   display: inline-block;
   height: fit-content;
 }
