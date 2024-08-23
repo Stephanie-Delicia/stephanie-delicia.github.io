@@ -142,7 +142,7 @@ ul.a li {
     padding-left: 20px;
     padding-top: 18px;
     margin: auto;
-    font-size: 22px;
+    font-size: 20px;
     width: 100%;
   }
 
@@ -152,7 +152,7 @@ ul.a li {
     float: left;
     width: 92%;
     padding-top: 10px;
-    font-size: 20;
+    font-size: 18px;
   }
 
   .generalContent line {
@@ -166,6 +166,7 @@ ul.a li {
   }
 
   .generalContent year {
+    width: 93%;
     margin: auto;
     float: right;
     padding-right: 40;
@@ -173,30 +174,36 @@ ul.a li {
   }
 
   .generalContent company {
+    width: 90%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
     font-weight: 600;
     padding-left: 20px;
     margin: auto;
     float: left;
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .generalContent position {
     font-style: italic;
+    padding-right: 20px;
     width: 92%;
     margin: auto;
     padding-left: 20px;
     float: left;
     bottom: -10px;
-    font-size: 18;
+    font-size: 18px;
   }
 
   .generalContent jobContent {
     width: 92%;
     margin: auto;
+    padding-right: 20px;
     padding-left: 20px;
     float: left;
     bottom: -10px;
-    font-size: 18;
+    font-size: 18px;
   }
 
   .generalContent smolContent {
