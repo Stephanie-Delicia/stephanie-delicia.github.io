@@ -208,7 +208,7 @@ textarea {
   width: 70%;
   background-color: #ffffff;
   resize: none; 
-  height: 300px;
+  height: 250px;
 }
 
 .submit-button {
@@ -224,8 +224,9 @@ textarea {
 
 /* Add styles to 'label' selector */
 label {
+  position: relative;
   text-align: center;
-  display:block;
+  display: block;
   margin: auto;
   font-size: 0.85em;
   float: left;
