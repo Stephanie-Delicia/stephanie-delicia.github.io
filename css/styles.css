@@ -119,28 +119,32 @@ body {
 /* --------------------- General Content Boxes ---------------- */
 .generalContent {
   background-color: #eefcff;
+  margin: auto;
   overflow: hidden;
   top: 200px;
   padding: 25px;
   scroll-margin-top: 7em;
   border-radius: 10px;
   padding-bottom: 20px;
-  width: 100%;
+  /* width: 100%; */
   display: inline-block;
   height: fit-content;
 }
 
   .generalContent header {
+    margin: auto;
     font-size: 22px;
   }
 
   .generalContent content {
+    margin: auto;
     float: left;
     padding-top: 10px;
     font-size: 20;
   }
 
   .generalContent line {
+    margin: auto;
     top: 50%;
     height: 1px;
     background: rgb(0, 0, 0);
@@ -150,6 +154,7 @@ body {
   }
 
   .generalContent smolContent {
+    margin: auto;
     float: left;
     color: #45a6bb;
     font-size: 15;
