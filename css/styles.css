@@ -262,7 +262,7 @@ input[type=submit]:hover {
 }
 
 .centerText {
-  font-size: 0.85em;
+  font-size: 15px;
   margin: auto;
   text-align: center;
   color: #157186;

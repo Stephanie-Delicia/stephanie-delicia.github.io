@@ -7,6 +7,7 @@
 </head>
 <!-- hamburger icon -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<?php include "php/submit_form.php";?>
 
 <!--------------------- Navigation --------------------->
 <body>
@@ -23,6 +24,9 @@
 
     <!-- Tab clicked animation -->
     <script src="js/nav_tab.js"></script> 
+
+    <!-- Contact form php (DO NOT UNCOMMENT!)-->
+    <!-- <script src="php/submit_form.php"></script>  -->
 
 <!--------------------- Intro --------------------->
 <div class="content" id="top">
@@ -44,18 +48,20 @@
 
             At Northeastern, I 
             learned programming fundamentals (e.g., algorithms & data structures, object-oriented design) 
-            as well as important practices in software engineering and mobile development (e.g., testing (unit testing), version control, agile workflows).
+            as well as important practices in software engineering and mobile development (e.g., testing 
+            (unit testing), version control, agile workflows).
             <br></br>
             
-            The other half of my education focused on mathematics which provided a great base for higher-level courses, such
-            machine learning and data science.
-            <br></br><smolContent> My personal favorite courses were Advanced Statistics & Probability, Graph Theory, and Real Analysis!
+            The other half of my education focused on mathematics which provided a great base for higher-level 
+            courses, such machine learning and data science.
+            <br></br><smolContent> My personal favorite courses were Advanced Statistics & Probability, 
+                Graph Theory, and Real Analysis!
             </smolContent>
 
             <br></br>
-
             
-            I was also a research assistant at Northeastern University where I trained & evaluated large language models, particularly summarization models. 
+            I was also a research assistant at Northeastern University where I trained & evaluated large 
+            language models, particularly multi-document summarization models. 
             <br></br>
             <smolContent> I highlight my project in the Experience section.</smolContent>
 
@@ -92,7 +98,6 @@
         <header> Experience </header>
         <line></line>
         <content>Under construction. Will be updated soon! :]]]]]]]]</content>
-
     </div> 
 
 <!--------------------- Contact page --------------------->
@@ -108,34 +113,38 @@
                     <input type="text"
                     id="name"
                     name="name"
-                    placeholder="Enter name" required>
+                    placeholder="Enter name"
+                    value=""required>
                     <span class="error-message" id="nameError"></span>
                 </div>
 
                 <div class="form-group">
-                    <label for="subject">Subject</label>
+                    <label class="required" for="subject">Subject</label>
                     <br>
                     <input type="text"
                     id="subject"
                     name="subject"
-                    placeholder="Enter subject" required>
+                    placeholder="Enter subject"
+                    value=""required>
                     <span class="error-message" id="subjectError"></span>
                 </div>
                 
                 <div class="form-group">
-                    <label for="email_name">Email Address</label>
+                    <label class="required" for="email_name">Email Address</label>
                     <br>
-                    <input type="email" 
+                    <input type="text" 
                     id="email"
                     name="email"
-                    placeholder="Enter email" required>
+                    placeholder="Enter email"
+                    value=""required>
                     <span class="error-message" id="emailError"></span>
                 </div>
 
                 <div class="form-group">
-                    <label for="message">Message</label>
+                    <label class="required" for="message">Message</label>
                     <br>
-                    <textarea id="message"type="text"name="message"placeholder="Enter message"rows="5"required></textarea><span class="error-message" id="messageError"></span>
+                    <textarea id="message"class="input"type="text"name="message"placeholder="Enter message"rows="5"required></textarea>
+                    <span class="error-message" id="messageError"></span>
                 </div>
                 <br>
                 <div class="submit-button">
