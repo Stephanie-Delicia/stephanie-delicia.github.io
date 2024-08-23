@@ -172,7 +172,7 @@ ul.a {
     padding-left: 20px;
     margin: auto;
     float: left;
-    font-size: 20;
+    font-size: 22px;
   }
 
   .generalContent position {
@@ -191,7 +191,7 @@ ul.a {
     padding-left: 20px;
     float: left;
     bottom: -10px;
-    font-size: 18;
+    font-size: 20;
   }
 
   .generalContent smolContent {
