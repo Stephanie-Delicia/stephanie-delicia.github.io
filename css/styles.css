@@ -254,7 +254,7 @@ input[type=submit]:hover {
 }
 
 .centerText {
-  font-size: 18px;
+  font-size: 0.85em;
   margin: auto;
   text-align: center;
   color: #157186;
