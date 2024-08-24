@@ -55,6 +55,7 @@ ul.a li {
 /* --------------------- Intro Content Box ---------------- */
 
 .introContent {
+  min-width: 500px;
   padding-top: 20px;
   background-color: #ffffff;
   padding-bottom: 80px;
@@ -114,8 +115,8 @@ ul.a li {
 
 .content {
   padding-top: 140px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 22%;
+  margin-right: 22%;
 }
 
 .sticky {
@@ -129,6 +130,7 @@ ul.a li {
 .generalContent {
   background-color: #eefcff;
   width: 100%;
+  min-width: 500px;
   overflow: hidden;
   top: 200px;
   scroll-margin-top: 7em;
