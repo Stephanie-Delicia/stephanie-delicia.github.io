@@ -55,7 +55,7 @@ ul.a li {
 /* --------------------- Intro Content Box ---------------- */
 
 .introContent {
-  min-width: 500px;
+  min-width: 300px;
   padding-top: 20px;
   background-color: #ffffff;
   padding-bottom: 80px;
@@ -130,7 +130,7 @@ ul.a li {
 .generalContent {
   background-color: #eefcff;
   width: 100%;
-  min-width: 500px;
+  min-width: 300px;
   overflow: hidden;
   top: 200px;
   scroll-margin-top: 7em;
