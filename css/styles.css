@@ -11,14 +11,6 @@ body {
   margin: 0;
 }
 
-ul.a {
-  list-style-type: circle;
-  padding-right: 15;
-}
-
-ul.a li {
-  margin-bottom: 10px;
-}
 
 /* -------------------------  Mini Stoof sprite elements. -------------------------*/
 #sprite { 
@@ -56,7 +48,7 @@ ul.a li {
 
 .introContent {
   min-width: 300px;
-  padding-top: 20px;
+  padding-top: 15px;
   background-color: #ffffff;
   padding-bottom: 80px;
   font-size: 20px;
@@ -177,7 +169,7 @@ ul.a li {
 
   .generalContent company {
     width: 90%;
-    padding-top: 25px;
+    padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
     font-weight: 600;
@@ -212,7 +204,7 @@ ul.a li {
     margin: auto;
     float: left;
     color: #45a6bb;
-    font-size: 15;
+    font-size: 16;
   }
 
   a:link {
