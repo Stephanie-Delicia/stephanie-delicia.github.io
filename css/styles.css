@@ -315,3 +315,13 @@ input[type=submit]:hover {
   color: #157186;
   padding-top: 2.5%;
 }
+
+/* --------------------- PDF Box ---------------- */
+
+iframe {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  height: 200px;
+  padding:10px;
+}
