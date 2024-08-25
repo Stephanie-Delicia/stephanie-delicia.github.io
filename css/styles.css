@@ -126,7 +126,7 @@ body {
   min-width: 300px;
   overflow: hidden;
   top: 200px;
-  scroll-margin-top: 6em;
+  scroll-margin-top: 5em;
   border-radius: 10px;
   padding-bottom: 50px;
   display: inline-block;
