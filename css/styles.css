@@ -125,7 +125,7 @@ body {
   min-width: 300px;
   overflow: hidden;
   top: 200px;
-  scroll-margin-top: 7em;
+  scroll-margin-top: 6em;
   border-radius: 10px;
   padding-bottom: 20px;
   display: inline-block;
@@ -309,7 +309,7 @@ input[type=submit]:hover {
 }
 
 .centerText {
-  font-size: 16px;
+  font-size: 18px;
   margin: auto;
   text-align: center;
   color: #157186;
