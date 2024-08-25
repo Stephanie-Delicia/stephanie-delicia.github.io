@@ -10,6 +10,201 @@
 
 <!--------------------- Navigation --------------------->
 <body>
-Under construction. Projects.
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <div id="homeNav">
+        <a href="#top"><tabName> Stephanie Martinez </tabName></a>
+        <a href="#contact">    <tab onclick="tab_clicked(this);" id = "content_tab">                Contact     </tab></a>
+        <a href="#experience"> <tab onclick="tab_clicked(this);" id = "exp_tab">                    Experience  </tab></a>
+        <a href="#skills">     <tab onclick="tab_clicked(this);" id = "skills_tab">                 Skills      </tab></a>
+        <a href="#aboutMe">    <tab class="active" onclick="tab_clicked(this);" id = "aboutMe_tab"> About Me    </tab></a>
+    </div> 
+
+    <!-- Sticky bar animation -->
+    <script src="js/sticky_bar.js"></script> 
+
+    <!-- Tab clicked animation -->
+    <script src="js/nav_tab.js"></script> 
+
+    <!-- Contact form php (DO NOT UNCOMMENT!)-->
+    <!-- <script src="php/submit_form.php"></script>  -->
+
+<!--------------------- Intro --------------------->
+<div class="content" id="top">
+    <div id="sprite"> </div> 
+    <div class="introContent"> 
+        I'm Stephanie Martinez. A recent graduate and enthusiast for applications of mathematics and programming.
+        On this site, you can view both my skills and projects.
+    </div>
+<div>
+
+<!--------------------- About Me page --------------------->
+    <div class="generalContent" id="aboutMe">
+        <header> About Me </header> 
+        <line></line>
+        <content>
+            I recently graduated from Northeastern University with 
+            a BS in Computer Science and Mathematics. At Northeastern, I 
+            learned programming fundamentals
+            as well as important practices in software engineering and mobile development.
+            <br></br>
+            
+            The other half of my education focused on mathematics which provided a great base for higher-level 
+            courses, such machine learning and data science. My personal favorite courses were Advanced Statistics & Probability, 
+                Graph Theory, and Real Analysis!
+
+
+            <br></br>
+            
+            I was also a research assistant at Northeastern University where I trained & evaluated large 
+            language models, particularly multi-document summarization models. 
+            
+            <br></br>
+            I am currently interested in positions within the realms of software engineering or data science.
+        </content>
+    </div> 
+
+<!--------------------- Skills page --------------------->
+    <div class="generalContent" id="skills">
+        <header> Skills </header>
+        <line></line>
+        <content>
+            Languages: Python, Java, R, MATLAB, TypeScript, Kotlin, React
+            <br></br>
+
+            Programming Concepts: Software Engineering Principles, Mobile Application Development, 
+            MVC and MVVM patterns, Object-oriented principles, Version Control, Testing, Algorithms 
+            <br></br>
+        
+            Mathematics: Adv. Statistics & Probability, Differential Calculus, Numerical Analysis, 
+            Real Analysis, Complex Analysis, Graph Theory, Group Theory, Linear Algebra, Machine Learning
+
+            <br></br>
+
+            <smolContent>
+
+                I have academic <a href="https://stephanie-delicia.github.io/art" text-decoration=none>PROJECTS</a> that showcase some of these skills. On my free time, I also like to <a href="#art" text-decoration=none>DRAW</a>.
+            </smolContent>
+
+        </content>
+    </div> 
+
+
+<!--------------------- Experience page --------------------->
+    <div class="generalContent" id="experience">
+        <header> Experience </header>
+        <line></line>
+            <company>Northeastern University</company>   
+            <position>Research Assistant | July 2022 - January 2023</position>
+            <jobContent> 
+                <ul>
+                    <li>Implemented a constrained decoding algorithm, in Python, for multi-document summarization language 
+                        models (LMs) with the goal of better reflecting an estimated sentiment in summaries of Rotten Tomatoes movie reviews.</li>
+                    <li>Utilized Python libraries such as PyTorch, Pandas, NumPy, and Sklearn.</li>
+                    <li>Performed a quantitative evaluation supporting that state-of-the-art LMs using the new decoding algorithm
+                        outperform baseline models in correlation metrics for sentiment.</li>
+                        <li><smolContent>Citation: Jay DeYoung, Stephanie C. Martinez, Iain J. Marshall, and Byron C. Wallace. 2024. Do Multi-Document Summarization Models Synthesize? Transactions of the Association for Computational Linguistics, accepted.</smolContent></li>
+                  </ul>  
+            </jobContent>
+        
+         <br>
+         <br>
+        
+         <company>Northeastern University REU (Research Experience for Undergraduates) </company>
+            <position>Northeastern Summer Math Research Program | May 2022 - July 2022</position>
+            <jobContent> 
+                <ul>
+                    <li>Collaborated with students to investigate a problem in graph theory known as spread minimization.</li>
+                    <li>Implemented, in Python, a data structure for graphs, random graphs, and simulated percolation.</li>
+                    <li>In Python, designed algorithms for spread minimization and recorded their effectiveness in random graphs.</li>
+                    <li>Co-wrote a 13-page report on graph theorems and empirical findings on spread minimization algorithms.</li>
+                </ul>  
+        </jobContent>
+
+        <iframe src="https://drive.google.com/file/d/1QnlEX6a9XZvBb0kbtnY2EwaH2j0-vgdc/preview" allow="autoplay" frameBorder="0"></iframe>
+
+        <br>
+
+        <company>The Eli and Edythe L. Broad Institute of MIT and Harvard </company>
+        <position>Computational Research Intern | June 2019 - August 2019</position>
+        <jobContent> 
+            <ul>
+                <li>Analyzed a gene expression profile database to identify drugs for potential use in treating non-small cell lung cancer through differentiation therapy.</li>
+                <li>In R, utilized quantile thresholds, non-parametric tests, and principal component analysis to filter database.</li>
+                <li>Identified 12 candidate drugs consisting of oncogene and cell-cycle inhibitors.</li>
+            </ul>
+    </jobContent>
+
+   <iframe src="https://drive.google.com/file/d/1ybrD1NrDQtM_bo7e3CIXRycN-LH9kycp/preview" allow="autoplay" frameBorder="0"></iframe>
+    
+    <br>
+    </div> 
+
+<!--------------------- Contact page --------------------->
+    <div class="generalContent" id="contact">
+        <header> Contact </header>
+        <line></line>
+        <div class="centerText"> Feel free to fill out this form or reach me at smartinezdelicia@gmail.com!</div>
+        
+        <div class="contact-form-container">
+            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+
+            <!-- Replace with your Access Key -->
+            <input type="hidden" name="access_key" value="15153755-60a4-4b79-b5d2-02896b633a5f">
+                
+                <div class="form-group">
+                    <label class="required" for="name"> Name </label>
+                    <br>
+                    <input type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter name"
+                    value=""required>
+                    <span class="error-message" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label class="required" for="subject">Subject</label>
+                    <br>
+                    <input type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Enter subject"
+                    value=""required>
+                    <span class="error-message" id="subjectError"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required" for="email_name">Email Address</label>
+                    <br>
+                    <input type="text" 
+                    id="email"
+                    name="email"
+                    placeholder="Enter email"
+                    value=""required>
+                    <span class="error-message" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label class="required" for="message">Message</label>
+                    <br>
+                    <textarea id="message"class="input"type="text"name="message"placeholder="Enter message"rows="5"required></textarea>
+                    <span class="error-message" id="messageError"></span>
+                </div>
+                <br>
+                <div class="submit-button">
+                    <input type="submit" value="Submit">
+                </div>
+
+                <!-- Honeypot Spam Protection -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                
+                <div id="sprite2"> </div> 
+                <br>
+                </form>
+        </div>
+    </div>
+
+</div>
 </body>
 </html>
+
