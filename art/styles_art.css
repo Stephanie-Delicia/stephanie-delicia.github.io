@@ -1,0 +1,159 @@
+html {  
+    scroll-behavior: smooth;  
+  }
+  
+  * {
+    font-family: 'Baskerville';
+  }
+  
+  body {
+    /* for SOME reason, setting margin to 0 eliminates any gaps to the left. */
+    margin: 0;
+  }
+  
+  /* -------------------------  Mini Stoof sprite elements. -------------------------*/
+  #sprite { 
+      width: 68px;
+      height: 68px;
+      margin: auto;
+      image-rendering: pixelated;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: crisp-edges;
+      background: url(../images/final_anim_strip.png);
+      animation: sprite_anim 1.3s steps(6) infinite;
+  } 
+  
+  @keyframes sprite_anim {
+      100% { background-position: 408; }
+  }
+  
+  #sprite2 { 
+    padding-left: 9px;
+    width: 68px;
+    height: 68px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    margin: auto;
+    background: url(../images/mail_sprite.png);
+    animation: sprite_anim2 2.0s steps(10) infinite;
+  } 
+  
+  @keyframes sprite_anim2 {
+    100% { background-position: 680; }
+  }
+  
+  /* --------------------- Intro Content Box ---------------- */
+  
+  .introContent {
+    min-width: 450px;
+    padding-top: 10px;
+    background-color: #ffffff;
+    padding-bottom: 70px;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    color: #298194;
+  }
+  
+  /* ------------------------- Navigation Bar -------------------------*/
+  #homeNav {
+      font-family: Baskerville;
+      background-color: #eefcff;
+      overflow: clip;
+      top: 0;
+      position: fixed;
+      width: 100%;
+      
+    }
+    /* ---------------------- Style the links inside the navigation bar */
+    #homeNav tabName {
+      float: left;
+      text-align: center;
+      display: block;
+      padding: 14px;
+      text-decoration: none;
+      font-size: 22px;
+      color:#000000;
+    }
+  
+    #homeNav tab {
+      float: right;
+      color: #041a32;
+      text-align: center;
+      width: 80px;
+      display: block;
+      padding: 14px;
+      text-decoration: none;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    /* Change the color of links on hover */
+    #homeNav tab:hover {
+      background-color: #b6d5e7;
+      color: black;
+      border-radius: 4px;
+    }
+    
+    /* Add a color to the active/current link */
+    #homeNav tab.active {
+      background-color: #45a6bb;
+      color: white;
+      border-radius: 4px;
+    }
+
+    .content {
+    padding-top: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+    }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .introContent {
+    min-width: 450px;
+    background-color: #ffffff;
+    padding-bottom: 70px;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    color: #298194;
+  }
+
+  .grid-container {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: auto auto auto;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+
+    height: 300px;
+    width: 250px;
+    font-size: 30px;
+    margin:auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .grid-item img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 300;
+    max-height: 300px;
+}
