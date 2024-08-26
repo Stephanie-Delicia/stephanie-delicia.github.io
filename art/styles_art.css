@@ -45,6 +45,13 @@ html {
   
   /* --------------------- Intro Content Box ---------------- */
   
+  .headerArt {
+    color: #298194;
+    font-size: 30;
+    margin: auto;
+    text-align: center;
+  }
+
   .introContent {
     min-width: 450px;
     padding-top: 10px;
