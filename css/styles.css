@@ -323,9 +323,9 @@ input[type=submit]:hover {
 iframe {
   text-align: center;
   margin: auto;
-  width: 90%;
+  width: 92%;
   height: 200px;
-  padding-left: 5%;
+  padding-left: 4%;
   padding-top: 20px;
   padding-bottom: 10px;
 }
