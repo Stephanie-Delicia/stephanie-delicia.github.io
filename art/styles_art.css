@@ -53,7 +53,6 @@ html {
   }
 
   .introContent {
-    min-width: 450px;
     padding-top: 10px;
     background-color: #ffffff;
     padding-bottom: 70px;
@@ -114,8 +113,6 @@ html {
 
     .content {
     padding-top: 100px;
-    margin-left: 15%;
-    margin-right: 15%;
     }
   
   .sticky {
@@ -132,6 +129,7 @@ html {
     margin: auto;
     text-align: center;
     color: #298194;
+    width: 90%;
   }
 
   .grid-container {
@@ -140,12 +138,17 @@ html {
     grid-template-columns: auto auto auto;
     background-color: #ffffff;
     padding: 10px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
   }
 
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
-
     height: 300px;
     width: 250px;
     font-size: 30px;

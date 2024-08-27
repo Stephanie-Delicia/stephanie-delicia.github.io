@@ -50,9 +50,9 @@ body {
   min-width: 450px;
   padding-top: 10px;
   background-color: #ffffff;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
   font-size: 22px;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
   color: #298194;
 }
@@ -107,7 +107,7 @@ body {
   }
 
 .content {
-  padding-top: 140px;
+  padding-top: 100px;
   margin-left: 23%;
   margin-right: 23%;
 }
