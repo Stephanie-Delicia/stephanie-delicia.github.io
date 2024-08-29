@@ -44,6 +44,17 @@ body {
   100% { background-position: 680; }
 }
 
+#laptopSprite { 
+  width: 80px;
+  height: 80px;
+  padding-bottom: 8;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  margin: auto;
+  background: url(../images/laptop_stoof.png);
+} 
+
 /* --------------------- Intro Content Box ---------------- */
 
 .introContent {
