@@ -134,16 +134,15 @@ html {
 
   .grid-container {
     display: grid;
-    gap: 20px;
+    gap: 40px;
     grid-template-columns: auto auto auto;
     background-color: #ffffff;
-    padding: 10px;
     right: 0;
     left: 0;
     border-radius: 10px;
     margin-right: auto;
     margin-left: auto;
-    width: 90%;
+    width: 70%;
   }
 
   .grid-item {

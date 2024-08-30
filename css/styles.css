@@ -138,7 +138,7 @@ body {
   top: 200px;
   scroll-margin-top: 7em;
   border-radius: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   display: inline-block;
   height: fit-content;
   margin-left: auto;
@@ -325,7 +325,9 @@ input[type=submit]:hover {
   margin: auto;
   text-align: center;
   color: #157186;
+  width: 95%;
   padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 /* --------------------- PDF Box ---------------- */
