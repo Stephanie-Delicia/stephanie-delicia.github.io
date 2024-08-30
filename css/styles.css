@@ -344,3 +344,14 @@ ul {
   padding-right: 10px;
   padding-left: 20px;
 }
+
+/* --------------------- Space Block ---------------- */
+
+#space {
+  height: 10px;
+  color:#a02424;
+  background-color: #000000;
+  width: 10px;
+  display: inline-block;
+  margin:auto;
+}
