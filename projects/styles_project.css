@@ -1,0 +1,364 @@
+html {  
+    scroll-behavior: smooth;  
+  }
+  
+  * {
+    font-family: 'Baskerville';
+  }
+  
+  body {
+    /* for SOME reason, setting margin to 0 eliminates any gaps to the left. */
+    margin: 0;
+  }
+  
+  
+  /* -------------------------  Mini Stoof sprite elements. -------------------------*/
+  #sprite { 
+      width: 68px;
+      height: 68px;
+      margin: auto;
+      image-rendering: pixelated;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: crisp-edges;
+      background: url(../images/final_anim_strip.png);
+      animation: sprite_anim 1.3s steps(6) infinite;
+  } 
+  
+  @keyframes sprite_anim {
+      100% { background-position: 408; }
+  }
+  
+  #sprite2 { 
+    padding-left: 9px;
+    width: 68px;
+    height: 68px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    margin: auto;
+    background: url(../images/mail_sprite.png);
+    animation: sprite_anim2 2.0s steps(10) infinite;
+  } 
+  
+  @keyframes sprite_anim2 {
+    100% { background-position: 680; }
+  }
+  
+  #laptopSprite { 
+    width: 63px;
+    height: 63px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    margin: auto;
+    background: url(../images/laptop_stoof.png);
+  } 
+  
+  /* --------------------- Intro Content Box ---------------- */
+  
+  .introContent {
+    min-width: 450px;
+    padding-top: 10px;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    font-size: 22px;
+    margin: 0 auto;
+    text-align: center;
+    color: #298194;
+  }
+  
+  /* ------------------------- Navigation Bar -------------------------*/
+  #homeNav {
+      font-family: Baskerville;
+      background-color: #eefcff;
+      overflow: clip;
+      top: 0;
+      position: fixed;
+      width: 100%;
+      
+    }
+    /* ---------------------- Style the links inside the navigation bar */
+    #homeNav tabName {
+      float: left;
+      text-align: center;
+      display: block;
+      padding: 14px;
+      text-decoration: none;
+      font-size: 22px;
+      color:#000000;
+    }
+  
+    #homeNav tab {
+      float: right;
+      color: #041a32;
+      text-align: center;
+      width: 150px;
+      display: block;
+      padding: 14px;
+      text-decoration: none;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    /* Change the color of links on hover */
+    #homeNav tab:hover {
+      background-color: #b6d5e7;
+      color: black;
+      border-radius: 4px;
+    }
+    
+    /* Add a color to the active/current link */
+    #homeNav tab.active {
+      background-color: #45a6bb;
+      color: white;
+      border-radius: 4px;
+    }
+  
+  .content {
+    padding-top: 100px;
+    margin-left: 23%;
+    margin-right: 23%;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+    
+  
+  /* --------------------- General Content Boxes ---------------- */
+  .generalContent {
+    background-color: #eefcff;
+    width: 100%;
+    min-width: 450px;
+    overflow: hidden;
+    top: 200px;
+    scroll-margin-top: 7em;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    display: inline-block;
+    height: fit-content;
+    margin-left: auto;
+  }
+  
+    .generalContent header {
+      padding-left: 20px;
+      padding-top: 18px;
+      margin: auto;
+      font-size: 28px;
+      width: 100%;
+    }
+  
+    .generalContent content {
+      margin: auto;
+      padding: 20px;
+      float: left;
+      width: 93%;
+      padding-top: 15px;
+      font-size: 18px;
+    }
+  
+    .generalContent line {
+      margin:auto;
+      width: 93%;
+      top: 50%;
+      height: 1px;
+      background: rgb(0, 0, 0);
+      content: "";
+      display: block;
+    }
+  
+    .generalContent year {
+      width: 93%;
+      margin: auto;
+      float: right;
+      padding-right: 40;
+      font-size: 16;
+    }
+  
+    .generalContent company {
+      width: 90%;
+      padding-top: 20px;
+      padding-right: 20px;
+      padding-left: 20px;
+      font-weight: 600;
+      padding-left: 20px;
+      margin: auto;
+      float: left;
+      font-size: 19px;
+    }
+  
+    .generalContent position {
+      font-style: italic;
+      padding-right: 20px;
+      width: 92%;
+      margin: auto;
+      padding-left: 20px;
+      float: left;
+      bottom: -10px;
+      font-size: 18px;
+    }
+  
+    .generalContent jobContent {
+      width: 92%;
+      margin: auto;
+      padding-right: 20px;
+      padding-left: 20px;
+      float: left;
+      bottom: -10px;
+      font-size: 18px;
+    }
+  
+    .generalContent smolContent {
+      margin: auto;
+      float: left;
+      color: #45a6bb;
+      font-size: 18;
+    }
+  
+    a:link {
+      text-decoration: underline;
+      color: #45a6bb;
+    }
+    
+    a:visited {
+      text-decoration: none;
+      color: #45a6bb;
+    }
+    
+    a:hover {
+      color: rgb(232, 109, 9);
+      text-decoration: underline;
+    }
+    
+    a:active {
+      text-decoration: underline;
+    }
+  
+  /* --------------------- Contact Box ---------------- */
+  .contact-form-box {
+    background-color: #fff;
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .form-group {
+    text-align: center;
+    margin-top: 1.0%;
+  }
+  
+  input {
+    font-size: 15px;
+    border: none ;
+    border-radius: 4px;
+    height: 35px;
+    font-family: Baskerville;
+    width: 60%;
+    background-color: #ffffff;
+  }
+  
+  input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    border: 1px solid green;
+  }
+  
+  textarea {
+    text-align: left;
+    border-radius: 4px;
+    font-family: Baskerville;
+    width: 60%;
+    background-color: #ffffff;
+    resize: none; 
+    height: 150px;
+    font-size: 15px;
+    border: none ;
+  }
+  
+  .submit-button {
+    border-radius: 4px;
+    text-align: center;
+    font-family: Baskerville;
+    height: 30px;
+    width: 100%;
+    margin: auto;
+    display: block;
+    font-size: 22px;
+    padding-bottom: 8px;
+  }
+  
+  /* Add styles to 'label' selector */
+  label {
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 0.85em;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  input[type=submit] {
+      background: #45a6bb;
+      box-shadow: none;
+      margin: 0 auto;
+      outline: 0;
+      color: white;
+      height: 35px;
+      border: 0;
+      border-radius: 4px;
+      transition: all ease-in-out 0.1s;
+      display: inline-block;
+      text-align: center;
+  }
+  
+  /* Style 'hover' property */
+  input[type=submit]:hover {
+    background: #6bcae0;
+  }
+  
+  .centerText {
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    color: #157186;
+    padding-top: 5%;
+  }
+  
+  /* --------------------- PDF Box ---------------- */
+  
+  iframe {
+    text-align: center;
+    margin: auto;
+    width: 92%;
+    height: 200px;
+    padding-left: 4%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  ul {
+    padding-right: 10px;
+    padding-left: 20px;
+  }
+  
+  /* --------------------- Space Block ---------------- */
+  
+  #space {
+    height: 10px;
+    color:#a02424;
+    background-color: #000000;
+    width: 10px;
+    display: inline-block;
+    margin:auto;
+  }
+
+  .headerProject {
+    color: #298194;
+    font-size: 30;
+    margin: auto;
+    text-align: center;
+  }
