@@ -11,13 +11,6 @@
 <!--------------------- Navigation --------------------->
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <div id="homeNav">
-        <a href="#top"><tabName> Stephanie Martinez </tabName></a>
-        <a href="#contact">    <tab onclick="tab_clicked(this);" id = "content_tab">                Contact     </tab></a>
-        <a href="#experience"> <tab onclick="tab_clicked(this);" id = "exp_tab">                    Experience  </tab></a>
-        <a href="#skills">     <tab onclick="tab_clicked(this);" id = "skills_tab">                 Skills      </tab></a>
-        <a href="#aboutMe">    <tab class="active" onclick="tab_clicked(this);" id = "aboutMe_tab"> About Me    </tab></a>
-    </div> 
 
     <!-- Sticky bar animation -->
     <script src="js/sticky_bar.js"></script> 
@@ -28,8 +21,17 @@
     <!-- Contact form php (DO NOT UNCOMMENT!)-->
     <!-- <script src="php/submit_form.php"></script>  -->
 
+    <div id="homeNav">
+        <a href="#top"><tabName> Stephanie Martinez </tabName></a>
+        <a href="#contact">    <tab onclick="tab_clicked(this);" id = "content_tab">                Contact     </tab></a>
+        <a href="#experience"> <tab onclick="tab_clicked(this);" id = "exp_tab">                    Experience  </tab></a>
+        <a href="#skills">     <tab onclick="tab_clicked(this);" id = "skills_tab">                 Skills      </tab></a>
+        <a href="#aboutMe">    <tab class="active" onclick="tab_clicked(this);" id = "aboutMe_tab"> About Me    </tab></a>
+    </div> 
+
 <!--------------------- Intro --------------------->
 <div class="content" id="top">
+    
     <div class="introContent" > 
         <div id="sprite"> </div> 
         <br>
@@ -161,7 +163,7 @@
     <div class="generalContent" id="contact">
         <header> Contact </header>
         <line></line>
-        <div class="centerText"> Feel free to fill out this form or reach me at smartinezdelicia@gmail.com!</div>
+        <br></br>
         
         <div class="contact-form-container">
             <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
@@ -215,9 +217,11 @@
 
                 <!-- Honeypot Spam Protection -->
                 <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-                
-                <div id="sprite2"> </div> 
                 <br>
+                <div id="sprite2"> </div> 
+
+                <div class="centerText"> Feel free to fill out this form or reach me at smartinezdelicia@gmail.com!</div>
+    
                 </form>
         </div>
     </div>
