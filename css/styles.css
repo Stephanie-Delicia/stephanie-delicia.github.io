@@ -45,9 +45,8 @@ body {
 }
 
 #laptopSprite { 
-  width: 80px;
-  height: 80px;
-  padding-bottom: 8;
+  width: 63px;
+  height: 63px;
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
@@ -157,7 +156,7 @@ body {
     margin: auto;
     padding: 20px;
     float: left;
-    width: 92%;
+    width: 93%;
     padding-top: 15px;
     font-size: 18px;
   }
