@@ -18,18 +18,22 @@
     <!-- Tab clicked animation -->
     <script src="js/nav_tab.js"></script> 
 
-    <!-- Contact form php (DO NOT UNCOMMENT!)-->
-    <!-- <script src="php/submit_form.php"></script>  -->
+    <!-- Responsive nav bar -->
+    <script src="js/responsive_nav.js"></script> 
 
-    <div id="homeNav">
+
+    <div class = "homeNav" id="homeNav">
         <a href="#top"><tabName> Stephanie Martinez </tabName></a>
         <a href="#contact">    <tab onclick="tab_clicked(this);" id = "content_tab">                Contact     </tab></a>
         <a href="#experience"> <tab onclick="tab_clicked(this);" id = "exp_tab">                    Experience  </tab></a>
         <a href="#skills">     <tab onclick="tab_clicked(this);" id = "skills_tab">                 Skills      </tab></a>
         <a href="#aboutMe">    <tab class="active" onclick="tab_clicked(this);" id = "aboutMe_tab"> About Me    </tab></a>
+        <a href="javascript:void(0);" class="icon" onclick="responsive_bar()">
+            <i class="fa fa-bars"></i>
+          </a>
     </div> 
 
-<!--------------------- Intro --------------------->
+    <!--------------------- Intro --------------------->
 <div class="content" id="top">
     
     <div class="introContent" > 
@@ -58,11 +62,10 @@
             The other half of my education focused on mathematics which provided a great base for higher-level 
             courses, such as machine learning. 
 
-            <br></br>
-
-            <div id="laptopSprite"> </div> 
-
             <br>
+            <br>
+
+            
             
             I was also a research assistant at Northeastern University where I trained & evaluated large 
             language models, particularly multi-document summarization models. 
@@ -163,6 +166,7 @@
     <div class="generalContent" id="contact">
         <header> Contact </header>
         <line></line>
+        <content>Reach me at smartinezdelicia@gmail.com or fill out this form.</content>
         <br></br>
         
         <div class="contact-form-container">
@@ -177,7 +181,7 @@
                     <input type="text"
                     id="name"
                     name="name"
-                    placeholder="Enter name"
+                    placeholder=""
                     value=""required>
                     <span class="error-message" id="nameError"></span>
                 </div>
@@ -188,7 +192,7 @@
                     <input type="text"
                     id="subject"
                     name="subject"
-                    placeholder="Enter subject"
+                    placeholder=""
                     value=""required>
                     <span class="error-message" id="subjectError"></span>
                 </div>
@@ -199,7 +203,7 @@
                     <input type="text" 
                     id="email"
                     name="email"
-                    placeholder="Enter email"
+                    placeholder=""
                     value=""required>
                     <span class="error-message" id="emailError"></span>
                 </div>
@@ -207,7 +211,7 @@
                 <div class="form-group">
                     <label class="required" for="message">Message</label>
                     <br>
-                    <textarea id="message"class="input"type="text"name="message"placeholder="Enter message"rows="5"required></textarea>
+                    <textarea id="message"class="input"type="text"name="message"placeholder=""rows="5"required></textarea>
                     <span class="error-message" id="messageError"></span>
                 </div>
                 <br>
@@ -219,9 +223,6 @@
                 <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                 <br>
                 <div id="sprite2"> </div> 
-
-                <div class="centerText"> Feel free to fill out this form or reach me at smartinezdelicia@gmail.com!</div>
-    
                 </form>
         </div>
     </div>
