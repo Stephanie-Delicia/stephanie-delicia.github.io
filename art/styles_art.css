@@ -52,75 +52,77 @@ html {
     text-align: center;
   }
 
-  .introContent {
-    background-color: #ffffff;
-    padding-bottom: 70px;
-    font-size: 20px;
-    margin: auto;
-    text-align: center;
-    color: #298194;
-  }
   
   /* ------------------------- Navigation Bar -------------------------*/
   #homeNav {
-      z-index: 9999999;
-      font-family: Baskerville;
-      background-color: #eefcff;
-      overflow: clip;
-      top: 0;
-      position: fixed;
-      width: 100%;
-      
-    }
-    /* ---------------------- Style the links inside the navigation bar */
-    #homeNav tabName {
-      float: left;
-      text-align: center;
-      display: block;
-      padding: 14px;
-      text-decoration: none;
-      font-size: 22px;
-      color:#000000;
-    }
-  
-    #homeNav tab {
-      float: right;
-      color: #041a32;
-      text-align: center;
-      width: 150px;
-      display: block;
-      padding: 14px;
-      text-decoration: none;
-      font-size: 18px;
-
-    }
-    
-    /* Change the color of links on hover */
-    #homeNav tab:hover {
-      background-color: #b6d5e7;
-      color: black;
-      border-radius: 4px;
-    }
-    
-    /* Add a color to the active/current link */
-    #homeNav tab.active {
-      background-color: #45a6bb;
-      color: white;
-      border-radius: 4px;
-    }
-
-    .content {
-    padding-top: 100px;
-    }
-  
-  .sticky {
-    position: fixed;
+    z-index: 999999;
+    font-family: Baskerville;
+    background-color: #eefcff;
     top: 0;
-    width: 100%;
+    position: fixed;
+    text-align: center;
+    width:100%;
+    border-radius: 4px;
+    min-width: 350px; 
+    overflow: hidden;
+    display: inline-block;
+    height: fit-content;
+    margin-left:auto;
+  }
+  /* ---------------------- Style the links inside the navigation bar */
+  #homeNav tabName {
+    float: left;
+    text-align: center;
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 18px;
+    color:#000000;
   }
 
+  #homeNav tab {
+    float: right;
+    color: #041a32;
+    text-align: center;
+    width: 117px;
+    height: 100%;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Change the color of links on hover */
+  #homeNav tab:hover {
+    background-color: #b6d5e7;
+    color: black;
+    border-radius: 4px;
+  }
+  
+  /* Add a color to the active/current link */
+  #homeNav tab.active {
+    background-color: #45a6bb;
+    color: white;
+    border-radius: 4px;
+  }
+
+.content {
+  padding-top: 100px;
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
   .introContent {
-    min-width: 450px;
+    min-width: 350px;
     background-color: #ffffff;
     padding-bottom: 70px;
     font-size: 20px;
@@ -148,8 +150,8 @@ html {
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
-    height: 310px;
-    width: 260px;
+    height: 300px;
+    width: 250px;
     border-radius: 10px;
     font-size: 30px;
     margin: auto;

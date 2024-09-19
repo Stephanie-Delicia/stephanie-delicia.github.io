@@ -9,6 +9,7 @@ html {
 body {
   /* for SOME reason, setting margin to 0 eliminates any gaps to the left. */
   margin: 0;
+  min-width: 350px;
 }
 
 
@@ -54,10 +55,25 @@ body {
   background: url(../images/laptop_stoof.png);
 } 
 
+#petersenSprite { 
+  width: 150px;
+  height: 70px;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  margin: auto;
+  background: url(../images/petersen_strip.png);
+  animation: petersen_anim 8.0s steps(11) infinite;
+} 
+
+@keyframes petersen_anim {
+  100% { background-position: -1650; }
+}
+
 /* --------------------- Intro Content Box ---------------- */
 
 .introContent {
-  min-width: 450px; 
+  min-width: 350px; 
   padding-top: 10px;
   background-color: #ffffff;
   padding-bottom: 50px;
@@ -78,7 +94,7 @@ body {
     left: 22%;
     right:22%;
     border-radius: 4px;
-    min-width: 450px; 
+    min-width: 350px; 
     /* change to 350 */
     overflow: hidden;
     display: inline-block;
@@ -142,18 +158,19 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 935px) {
   #homeNav a:not(:first-child) {
     display: none;
   }
   #homeNav a.icon {
     float: right;
+    padding: 15px;
     display: block;
   }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 935px) {
   #homeNav.responsive {
     display: grid;
     place-items: center;
@@ -163,8 +180,9 @@ body {
   #homeNav.responsive a.icon {
     grid-area: inner-div;
     position: absolute;
+    padding: 15px;
     right: 0;
-    top: 0;
+    bottom: 0;
   }
   
   #homeNav.responsive a {
@@ -181,7 +199,7 @@ body {
 .generalContent {
   background-color: #eefcff;
   width: 100%;
-  min-width: 450px; 
+  min-width: 350px; 
   overflow: hidden;
   top: 200px;
   scroll-margin-top: 7em;
@@ -337,8 +355,7 @@ textarea {
   width: 30%;
   margin: auto;
   display: block;
-  font-size: 16px;
-  
+  font-size: 14px;
   padding-bottom: 8px;
 }
 
@@ -366,6 +383,7 @@ input[type=submit] {
     transition: all ease-in-out 0.1s;
     display: inline-block;
     text-align: center;
+    font-size: 14px;
 }
 
 /* Style 'hover' property */
@@ -388,9 +406,9 @@ input[type=submit]:hover {
 iframe {
   text-align: center;
   margin: auto;
-  width: 92%;
+  width: 70%;
   height: 200px;
-  padding-left: 4%;
+  padding-left: 15%;
   padding-top: 20px;
   padding-bottom: 10px;
 }
