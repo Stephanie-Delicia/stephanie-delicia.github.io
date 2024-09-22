@@ -292,11 +292,12 @@ body {
     float: left;
     overflow: hidden; 
     border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
   }
 
   .bulletBox {
     height: 480px;
-    width: 350px;
+    width: 340px;
     font-size: 18px;
     display: inline-block;
     vertical-align: top;
@@ -319,20 +320,20 @@ body {
   
     .grid-item {
       background-color: #ffffff00;
-      border: 1px solid rgba(0, 0, 0, 0.8);
-      height: 264px;
-      width: 130px;
-      border-radius: 10px;
-      font-size: 30px;
+      display: inline-block;
+      height: 290px;
+      width: 135px;
+      font-size: 16px;
       margin: auto;
       text-align: center;
-      display: flex;
       justify-content: center;
       align-items: center;
       overflow: hidden;
     }
   
     .grid-item img {
+      border-radius: 10px;
+      border: 1px solid rgba(0, 0, 0, 0.8);
       height: 264px;
       width: 130px;
   }
