@@ -356,7 +356,7 @@ textarea {
   margin: auto;
   display: block;
   font-size: 14px;
-  padding-bottom: 8px;
+  padding-bottom: 0px;
 }
 
 /* Add styles to 'label' selector */
