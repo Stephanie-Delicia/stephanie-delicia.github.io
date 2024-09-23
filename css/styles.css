@@ -36,22 +36,19 @@ body {
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
   display: inline-block;
-  margin:auto;
   background: url(../images/mail_stoof_strip.png);
-  animation: sprite_anim2 2.0s steps(11) infinite;
+  animation: sprite_anim2 2.5s steps(11) infinite;
 } 
 
 .spriteText {
   padding-left: 15%;
-  padding-right: 1px;
   display: inline-block;
   text-align: left;
   vertical-align: top;
-  font-size: 15px;
+  font-size: 14px;
   color: #45a6bb;
-  margin:auto;
   top:0;
-  width: 60%;
+  width: 50%;
 }
 
 @keyframes sprite_anim2 {
