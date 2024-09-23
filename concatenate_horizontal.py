@@ -18,9 +18,8 @@ def concatenate_imgs(file_array):
             final_img = new_img
     return final_img
 
-images = ["petersen1.png", "petersen2.png", "petersen3.png", "petersen4.png", "petersen5.png",
-          "petersen6.png", "petersen7.png", "petersen8.png", "petersen9.png", "petersen10.png",
-          "petersen11.png"]
+images = ["mini_stoof0.png", "mini_stoof1.png", "mini_stoof2.png", "mini_stoof3.png", "mini_stoof4.png", "mini_stoof5.png",
+          "mini_stoof6.png", "mini_stoof7.png", "mini_stoof8.png", "mini_stoof9.png", "mini_stoof10.png"]
 
 output = concatenate_imgs(images)
 imageio.imwrite('myfile.png', output)
