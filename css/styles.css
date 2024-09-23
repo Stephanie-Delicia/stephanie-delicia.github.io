@@ -41,14 +41,14 @@ body {
 } 
 
 .spriteText {
-  padding-left: 15%;
+  padding-left: 21%;
   display: inline-block;
   text-align: left;
   vertical-align: top;
   font-size: 14px;
   color: #45a6bb;
   top:0;
-  width: 50%;
+  width:50%;
 }
 
 @keyframes sprite_anim2 {
