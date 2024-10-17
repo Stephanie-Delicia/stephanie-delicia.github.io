@@ -88,6 +88,7 @@ body {
 /* ------------------------- Navigation Bar -------------------------*/
 #homeNav {
     z-index: 999999;
+    border: 1px solid #b0e2ed;
     font-family: Baskerville;
     background-color: #eefcff;
     top: 0;
@@ -159,6 +160,7 @@ body {
 
 /* --------------------- General Content Boxes ---------------- */
 .generalContent {
+  border: 1px solid #b0e2ed;
   background-color: #eefcff;
   width: 100%;
   min-width: 610px; 
@@ -297,15 +299,16 @@ body {
   }
 
   .bulletBox {
+    padding-left: 9px;
     height: 480px;
     width: 340px;
-    font-size: 18px;
+    font-size: 16px;
     display: inline-block;
     vertical-align: top;
   }
     /* ------------------------ grid stuff ------------------------ */
 
-    .grid-container {
+    .grid-container-four {
       padding-top: 15px;
       display: grid;
       gap: 10px;
@@ -318,8 +321,42 @@ body {
       margin-left: auto;
       width: 100%;
     }
+
+    .grid-container-mosaic {
+      padding-top: 15px;
+      display: grid;
+      gap: 5px;
+      grid-template-columns: auto auto auto auto;
+      background-color: #ffffff00;
+      right: 0;
+      left: 0;
+      border-radius: 10px;
+      margin-right: auto;
+      margin-left: auto;
+      width: 100%;
+    }
+
+    .grid-item-img {
+      background-color: #ffffff00;
+      display: inline-block;
+      height: 140px;
+      width: 113px;
+      font-size: 16px;
+      margin: auto;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .grid-item-img img {
+      border-radius: 10px;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      height: 140px;
+      width: 113px;
+  }
   
-    .grid-item {
+    .grid-item-phone {
       background-color: #ffffff00;
       display: inline-block;
       height: 290px;
@@ -332,9 +369,19 @@ body {
       overflow: hidden;
     }
   
-    .grid-item img {
+    .grid-item-phone img {
       border-radius: 10px;
       border: 1px solid rgba(0, 0, 0, 0.8);
       height: 264px;
       width: 130px;
+  }
+
+  /* ------------------------ Image stuff ------------------------ */
+
+  .image-box {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
