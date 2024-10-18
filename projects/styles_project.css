@@ -99,7 +99,7 @@ body {
     right:22%;
     border-radius: 4px;
     max-width: 650px;
-  min-width: 625px;
+    min-width: 625px;
     /* change to 350 */
     overflow: hidden;
     display: inline-block;
@@ -287,6 +287,8 @@ body {
     font-size: 30;
     margin: auto;
     text-align: center;
+    max-width: 650px;
+    min-width: 625px;
   }
 
   /* --------------------- Video ---------------- */
@@ -342,8 +344,8 @@ body {
     .grid-item-img {
       background-color: #ffffff00;
       display: inline-block;
-      height: 170px;
-      width: 115px;
+      height: 205px;
+      width: 140px;
       font-size: 16px;
       margin: auto;
       text-align: center;
@@ -355,8 +357,8 @@ body {
     .grid-item-img img {
       border-radius: 10px;
       border: 1px solid rgba(0, 0, 0, 0.8);
-      height: 140px;
-      width: 113px;
+      height: 170px;
+      width: 130px;
   }
   
     .grid-item-phone {

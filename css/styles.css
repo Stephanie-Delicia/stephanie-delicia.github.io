@@ -89,7 +89,7 @@ body {
   background-color: #ffffff;
   padding-bottom: 50px;
   font-size: 18px;
-  margin: 0 auto;
+  margin-left: auto auto;
   text-align: center;
   color: #298194;
   width: 98%;
@@ -105,6 +105,7 @@ body {
     text-align: center;
     left: 22%;
     right:22%;
+
     border-radius: 4px;
     max-width: 600px;
     min-width: 450px; 
@@ -112,7 +113,7 @@ body {
     overflow: hidden;
     display: inline-block;
     height: fit-content;
-    margin-left:auto;
+    margin-left: auto auto;
   }
   /* ---------------------- Style the links inside the navigation bar */
   #homeNav tabName {
@@ -171,7 +172,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 950px) {
   #homeNav a:not(:first-child) {
     display: none;
   }
@@ -183,7 +184,7 @@ body {
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 950px) {
   #homeNav.responsive {
     display: grid;
     place-items: center;
@@ -215,14 +216,14 @@ body {
   width: 100%;
   min-width: 450px; 
   max-width: 600px;
-  overflow: hidden;
   top: 200px;
   scroll-margin-top: 7em;
   border-radius: 4px;
   padding-bottom: 30px;
   display: inline-block;
   height: fit-content;
-  margin-left: auto;
+  margin: auto auto;
+  align-items: center;
 }
 
   .generalContent header {
