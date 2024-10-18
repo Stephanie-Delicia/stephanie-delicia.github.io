@@ -83,7 +83,8 @@ body {
 /* --------------------- Intro Content Box ---------------- */
 
 .introContent {
-  min-width: 350px; 
+  max-width: 600px;
+  min-width: 450px;
   padding-top: 10px;
   background-color: #ffffff;
   padding-bottom: 50px;
