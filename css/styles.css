@@ -8,7 +8,6 @@ html {
 
 body {
   /* for SOME reason, setting margin to 0 eliminates any gaps to the left. */
-  margin: 0;
   min-width: 350px;
 }
 
@@ -92,7 +91,6 @@ body {
   margin-left: auto auto;
   text-align: center;
   color: #298194;
-  width: 98%;
 }
 
 /* ------------------------- Navigation Bar -------------------------*/
@@ -105,7 +103,6 @@ body {
     text-align: center;
     left: 22%;
     right:22%;
-
     border-radius: 4px;
     max-width: 600px;
     min-width: 450px; 

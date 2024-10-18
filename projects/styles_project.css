@@ -80,10 +80,9 @@ body {
   background-color: #ffffff;
   padding-bottom: 15px;
   font-size: 18px;
-  margin: 0 auto;
+  margin: auto auto;
   text-align: center;
   color: #298194;
-  width: 98%;
 }
 
 /* ------------------------- Navigation Bar -------------------------*/
@@ -95,16 +94,17 @@ body {
     top: 0;
     position: fixed;
     text-align: center;
-    left: 22%;
-    right:22%;
+    margin: auto auto;
     border-radius: 4px;
     max-width: 650px;
     min-width: 625px;
     /* change to 350 */
+    left: 22%;
+    right:22%;
     overflow: hidden;
     display: inline-block;
     height: fit-content;
-    margin-left:auto;
+    margin-left: auto auto;
   }
   /* ---------------------- Style the links inside the navigation bar */
   #homeNav tabName {
@@ -174,7 +174,7 @@ body {
   padding-bottom: 30px;
   display: inline-block;
   height: fit-content;
-  margin-left: auto;
+  margin-left: auto auto;
 }
 
   .generalContent header {
