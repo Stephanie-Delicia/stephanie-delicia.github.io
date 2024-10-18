@@ -47,11 +47,20 @@ html {
   
   .headerArt {
     color: #298194;
-    font-size: 30;
-    margin-left: auto auto;
+    min-width: 350px;
+    font-size: 28;
+    margin: auto auto;
     text-align: center;
   }
 
+  .introContent {
+    min-width: 350px;
+    padding-bottom: 70px;
+    font-size: 20px;
+    margin: auto auto;
+    text-align: center;
+    color: #298194;
+  }
   
   /* ------------------------- Navigation Bar -------------------------*/
   #homeNav {
@@ -61,7 +70,7 @@ html {
     top: 0;
     position: fixed;
     text-align: center;
-    width:100%;
+    width: 100%;
     border-radius: 4px;
     min-width: 350px; 
     overflow: hidden;
@@ -115,35 +124,33 @@ html {
   margin-right: 22%;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-  .introContent {
-    min-width: 350px;
-    background-color: #ffffff;
-    padding-bottom: 70px;
-    font-size: 20px;
-    margin: auto auto;
-    text-align: center;
-    color: #298194;
-    width: 90%;
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
+
+
 
   /* ------------------------ grid stuff ------------------------ */
 
+  .box-test {
+    background-color: rgba(245, 182, 182, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 50px;
+    height: 50px;
+    margin: auto auto;
+  }
+
   .grid-container {
     display: grid;
-    gap: 40px;
+    width: 750px;
+    grid-gap: 20px;
     grid-template-columns: auto auto auto;
     background-color: #ffffff;
-    right: 0;
-    left: 0;
     border-radius: 10px;
-    margin-left: auto auto;
-    width: 70%;
+    text-align: center;
+    margin: auto auto;
   }
 
   .grid-item {
