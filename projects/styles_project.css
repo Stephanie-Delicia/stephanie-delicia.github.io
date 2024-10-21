@@ -403,3 +403,31 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+    /* ------------------------ Project selector box ------------------------ */
+    .grid-container-projects {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: auto auto auto auto;
+      background-color: #ffffff00;
+      margin: auto auto;
+      width: 100%;
+      max-width: 650px;
+      min-width: 625px;
+      padding-bottom: 45px;
+    }
+
+    .grid-project {
+      border: 1px solid #b0e2ed;
+      background-color: #eefcff;
+      border-radius: 4px;
+      display: inline-grid;
+      height: 100px;
+      width: 100px;
+      font-size: 16px;
+      margin: auto auto;
+      text-align: center;
+      overflow: hidden;
+      justify-items: center;
+      align-items: center;
+    }
