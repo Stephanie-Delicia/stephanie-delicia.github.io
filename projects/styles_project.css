@@ -98,13 +98,12 @@ body {
     border-radius: 4px;
     max-width: 650px;
     min-width: 625px;
-    /* change to 350 */
     left: 22%;
     right:22%;
     overflow: hidden;
     display: inline-block;
     height: fit-content;
-    margin-left: auto auto;
+    margin: auto auto;
   }
   /* ---------------------- Style the links inside the navigation bar */
   #homeNav tabName {
@@ -162,8 +161,6 @@ body {
 
 /* --------------------- General Content Boxes ---------------- */
 .generalContent {
-  left: 22%;
-  right:22%;
   border: 1px solid #b0e2ed;
   background-color: #eefcff;
   width: 100%;
@@ -171,12 +168,26 @@ body {
   min-width: 625px;
   overflow: hidden;
   top: 200px;
-  scroll-margin-top: 7em;
+  scroll-margin-top: 5em;
   border-radius: 4px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   height: fit-content;
   overflow: hidden;
-  margin-left: auto auto;
+  margin: auto auto;
+}
+
+.generalContentTest {
+  margin: auto auto;
+  border: 1px solid #b0e2ed;
+  background-color: #eefcff;
+  width: 100%;
+  min-width: 450px; 
+  max-width: 600px;
+  scroll-margin-top: 5em;
+  border-radius: 4px;
+  padding-bottom: 15px;
+  overflow: hidden;
+  height: fit-content;
 }
 
   .generalContent header {
