@@ -101,7 +101,7 @@ body {
     position: fixed;
     text-align: center;
     left: 22%;
-    right:22%;
+    right: 22%;
     border-radius: 4px;
     max-width: 600px;
     min-width: 450px; 
@@ -206,32 +206,45 @@ body {
   
 
 /* --------------------- General Content Boxes ---------------- */
+
+.testGeneral {
+  text-align: center;
+  border: 1px solid #b0e2ed;
+  background-color: #2eb2d0;
+  height: 100px;
+  width:160px;
+  min-width: 450px; 
+  max-width: 600px;
+  border-radius: 4px;
+  left: 22%;
+  right:22%;
+  margin:auto auto;
+}
+
 .generalContent {
+  margin: auto auto;
   border: 1px solid #b0e2ed;
   background-color: #eefcff;
   width: 100%;
   min-width: 450px; 
   max-width: 600px;
-  top: 200px;
   scroll-margin-top: 5em;
   border-radius: 4px;
-  padding-bottom: 30px;
-  display: inline-block;
+  padding-bottom: 15px;
+  overflow: hidden;
   height: fit-content;
-  margin: auto auto;
-  align-items: center;
 }
 
   .generalContent header {
     padding-left: 20px;
     padding-top: 18px;
-    margin: auto;
+    margin: auto auto;
     font-size: 24px;
     width: 100%;
   }
 
   .generalContent content {
-    margin: auto;
+    margin: auto auto;
     padding: 20px;
     float: left;
     width: 93%;
@@ -240,7 +253,7 @@ body {
   }
 
   .generalContent line {
-    margin:auto;
+    margin: auto;
     width: 95%;
     top: 50%;
     height: 1px;

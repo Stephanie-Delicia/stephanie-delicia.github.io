@@ -162,6 +162,8 @@ body {
 
 /* --------------------- General Content Boxes ---------------- */
 .generalContent {
+  left: 22%;
+  right:22%;
   border: 1px solid #b0e2ed;
   background-color: #eefcff;
   width: 100%;
