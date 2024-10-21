@@ -176,6 +176,7 @@ body {
   padding-bottom: 30px;
   display: inline-block;
   height: fit-content;
+  overflow: hidden;
   margin-left: auto auto;
 }
 
