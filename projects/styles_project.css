@@ -484,10 +484,7 @@ body {
       background-color: #c3ebf4;
       display: none;
     }
-
-    .show {display: inline-block; }
-    .show2 {display: inline-block; }
-
+    
     .histoBox {
       height: 330px;
       width: 277px;

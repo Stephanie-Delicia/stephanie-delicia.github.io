@@ -1,7 +1,5 @@
 function dropDownClicked() {
-    document.getElementById("dropdown1").classList.toggle("show");
-    document.getElementById("dropdown2").classList.toggle("show2");
-  }
+}
   
   // Close the dropdown if the user clicks outside of it
   window.onclick = function(event) {
@@ -13,6 +11,7 @@ function dropDownClicked() {
       } else {
         document.getElementById("dropdown-img-examples").style.display = 'inline-block';
       }
+      document.getElementById("dropdown1").classList.toggle("show");
     } else if (event.target == document.getElementById('dropdown-btn2')) { // second button
         console.log("second button clicked");
         var dropdown = document.getElementById("dropdown2");
@@ -21,6 +20,6 @@ function dropDownClicked() {
         } else {
           document.getElementById("dropdown-class-diagram").style.display = 'inline-block';
         }
+        document.getElementById("dropdown2").classList.toggle("show2");
     }
-
   }
