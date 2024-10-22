@@ -17,13 +17,14 @@
     </div> 
 
     <!-- Sticky bar animation -->
-    <script src="js/sticky_bar.js"></script> 
+    <script src="../js/sticky_bar.js"></script> 
 
     <!-- Tab clicked animation -->
     <script src="js/nav_tab.js"></script> 
 
-    <!-- Contact form php (DO NOT UNCOMMENT!)-->
-    <!-- <script src="php/submit_form.php"></script>  -->
+    <!-- Tab clicked animation -->
+    <script src="../js/dropdown.js"></script> 
+    <script src="../js/dropdown2.js"></script> 
 
 <!--------------------- Intro --------------------->
 
@@ -97,34 +98,45 @@
         
         <content>
             I co-programmed an image processor as a final project for my object-oriented design course.
-            
+            <br></br>
             <div class="image-box"><img src="../images/imgProcessorScreen.png" alt="Program" width = "525" height="350"></div>
+            <br>
+            One of the transformations includes mosaicing an image, given the number of seeds that the user inputs.
+            
             <div class="grid-container-mosaic">
                 <div class="grid-item-img"> Original Image<img id="drawing1" src="../images/original_img.JPG"> </img> </div>
                 <div class="grid-item-img"> 10 Seeds <img id="drawing1" src="../images/10_seeds.png"> </img> </div>
                 <div class="grid-item-img"> 100 Seeds <img id="drawing3" src="../images/100_seeds.png"/></img></div>
                 <div class="grid-item-img"> 1000 Seeds <img id="drawing2" src="../images/1000_seeds.png"/> </img></div>
               </div>
+            
+            A frequency diagram for each value (0-256) of the red, green, and blue channels is generated for each image as shown in the video.
+            <!-- <br></br>
+            <div class="histoBox">
+                 <img id="freq_graph" src="../images/freq_graph.png"> </img>
+              </div>
 
-              Whoa, whoa, whoa, why is this cut off?!
+              <br> -->
+
+            Other image transformations as well as the class diagrams can be displayed using the dropdowns below. 
+            <br></br>
+            <div class="dropdown-img"  id = "dropdown1">
+                <div class="arrow" id="dropdown-btn" onclick="dropDownClicked()" style="cursor: pointer;"> </div>
+                <div class="dropdown-text" >View other transformations</div>
+            </div>
+            <div class="dropdown-content" id="dropdown-img-examples"> </div>
+    
+            <br></br>
+
+            <div class="dropdown-img"  id = "dropdown2">
+                <div class="arrow" id="dropdown-btn2" onclick="dropDownClicked()" style="cursor: pointer;"> </div>
+                <div class="dropdown-text" >View class diagram</div>
+            </div>
+            <div class="dropdown-content" id="dropdown-class-diagram"> </div>
         </content>
-
     </div> 
 
     <br></br>
-<!--     
-    <div class="generalContent" id="marbleGame">
-
-
-        <header> Marble Game </header> 
-        <line></line>
-
-        - Written in Java
-        - MVC
-        <content>
-
-        </content>
-    </div>  -->
 
 </div>
 </body>
