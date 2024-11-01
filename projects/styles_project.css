@@ -172,8 +172,6 @@ body {
   border-radius: 4px;
   padding-bottom: 15px;
   height: fit-content;
-  overflow-x: hidden;
-  overflow: auto;
   margin: auto auto;
 }
 
