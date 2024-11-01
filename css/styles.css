@@ -8,7 +8,7 @@ html {
 
 body {
   /* for SOME reason, setting margin to 0 eliminates any gaps to the left. */
-  min-width: 350px;
+  min-width: 220px;
 }
 
 /* -------------------------  Mini Stoof sprite elements. -------------------------*/
@@ -82,7 +82,7 @@ body {
 
 .introContent {
   max-width: 600px;
-  min-width: 350px;
+  min-width: 320px;
   padding-top: 10px;
   background-color: #ffffff;
   padding-bottom: 50px;
@@ -104,12 +104,47 @@ body {
   right: 22.0%;
   border-radius: 4px;
   max-width: 600px;
-  min-width: 350px;
+  min-width: 320px;
   overflow: auto;
   display: block;
   /* justify-content: space-between; */
   margin: auto auto;
   /* align-items: center; */
+}
+
+@media screen and (max-width: 550px) {
+  #homeNav {
+      width: 100%;
+      border: 1px solid #b0e2ed;
+      font-family: Baskerville;
+      background-color: #eefcff;
+      top: 0;
+      position: fixed;
+      text-align: center;
+      border-radius: 4px;
+      overflow: auto;
+      display: block;
+      left: 0%;
+      right: 0%;
+      /* justify-content: space-between; */
+      margin: auto auto;
+      /* align-items: center; */
+  }
+
+  .introContent {
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    padding-top: 10px;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
+    color: #298194;
+  }
+
+  
 }
 /* ---------------------- Style the links inside the navigation bar */
 #homeNav tabName {
@@ -207,7 +242,7 @@ width: 100%;
     right: 22%;
     border-radius: 4px;
     max-width: 600px;
-    min-width: 350px;
+    min-width: 320px;
     overflow: auto;
     display: block;
     margin: auto auto;
@@ -262,7 +297,7 @@ width: 100%;
   background-color: #2eb2d0;
   height: 100px;
   width: 160px;
-  min-width: 350px;
+  min-width: 320px;
   max-width: 600px;
   border-radius: 4px;
   left: 22%;
@@ -275,7 +310,7 @@ width: 100%;
   border: 1px solid #b0e2ed;
   background-color: #eefcff;
   width: 100%;
-  min-width: 350px;
+  min-width: 320px;
   max-width: 600px;
   scroll-margin-top: 5em;
   border-radius: 4px;
