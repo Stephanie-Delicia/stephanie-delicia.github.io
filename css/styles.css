@@ -94,73 +94,84 @@ body {
 
 /* ------------------------- Navigation Bar -------------------------*/
 #homeNav {
-    border: 1px solid #b0e2ed;
-    font-family: Baskerville;
-    background-color: #eefcff;
-    top: 0;
-    position: fixed;
-    text-align: center;
-    left: 22%;
-    right: 22%;
-    border-radius: 4px;
-    max-width: 600px;
-    min-width: 450px; 
-    /* change to 350 */
-    overflow: hidden;
-    display: inline-block;
-    height: fit-content;
-    margin: auto auto;
-  }
-  /* ---------------------- Style the links inside the navigation bar */
-  #homeNav tabName {
-    float: left;
-    text-align: center;
-    display: block;
-    padding: 14px;
-    text-decoration: none;
-    font-size: 18px;
-    color:#000000;
-  }
+  border: 1px solid #b0e2ed;
+  font-family: Baskerville;
+  background-color: #eefcff;
+  top: 0;
+  position: fixed;
+  text-align: center;
+  left: 22%;
+  right: 22%;
+  border-radius: 4px;
+  max-width: 600px;
+  min-width: 450px;
+  overflow: auto;
+  display: block;
+  /* justify-content: space-between; */
+  margin: auto auto;
+  /* align-items: center; */
+}
+/* ---------------------- Style the links inside the navigation bar */
+#homeNav tabName {
+  float: left;
+  text-align: center;
+  display: block;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 18px;
+  color:#000000;
+}
 
-  #homeNav tab {
-    float: right;
-    color: #041a32;
-    text-align: center;
-    width: 58px;
-    height: 100%;
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Change the color of links on hover */
-  #homeNav tab:hover {
-    background-color: #b6d5e7;
-    color: black;
-    border-radius: 4px;
-  }
-  
-  /* Add a color to the active/current link */
-  #homeNav tab.active {
-    background-color: #45a6bb;
-    color: white;
-    border-radius: 4px;
-  }
+#homeNav tab-container {
+  overflow: fit-content;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#homeNav tab {
+  margin-left: auto;
+  color: #041a32;
+  text-align: center;
+  width: 58px;
+  height: 100%;
+  padding: 15px;
+  text-decoration: none; 
+  font-size: 14px;
+  display: inline-block;
+  justify-content: center;
+  border-radius: 4px;
+  align-items: center;
+}
+
+/* Change the color of links on hover */
+#homeNav tab:hover {
+  background-color: #b6d5e7;
+  text-align: center;
+  color: black;
+  border-radius: 4px;
+  margin-left: auto;
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+#homeNav tab.active {
+  background-color: #45a6bb;
+  text-align: center;
+  color: white;
+  border-radius: 4px;
+  margin-left: auto;
+}
 
 .content {
-  padding-top: 100px;
-  margin-left: 22%;
-  margin-right: 22%;
+padding-top: 100px;
+margin-left: 22%;
+margin-right: 22%;
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+position: fixed;
+top: 0;
+width: 100%;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -177,31 +188,69 @@ body {
     padding: 15px;
     display: block;
   }
+
+  #homeNav tab-container {
+    display: none;
+  }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 950px) {
   #homeNav.responsive {
-    display: grid;
-    place-items: center;
-    grid-template-areas: "inner-div";
-  }
-  
-  #homeNav.responsive a.icon {
-    grid-area: inner-div;
-    position: absolute;
-    padding: 15px;
-    right: 0;
-    bottom: 0;
-  }
-  
-  #homeNav.responsive a {
-    float: none;
+    border: 1px solid #b0e2ed;
+    font-family: Baskerville;
+    background-color: #eefcff;
+    top: 0;
+    position: fixed;
+    text-align: center;
+    left: 22%;
+    right: 22%;
+    border-radius: 4px;
+    max-width: 600px;
+    min-width: 450px;
+    overflow: auto;
     display: block;
-    text-align: right;
-    height: 10px;
-    padding-bottom: 30px;
+    margin: auto auto;
   }
+
+  #homeNav.responsive tab-container a {
+    margin: auto;
+    text-align: center;
+    height: fit-content;
+    display: inline-block;
+    text-decoration: none; 
+    /* border-radius: 4px; */
+    /* border: 1px solid #b0e2ed; */
+    width: 100%;
+  }
+
+  #homeNav.responsive tab-container a tab {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none; 
+    /* border: 1px solid #b0e2ed; */
+  }
+
+  #homeNav.responsive tab-container {
+    margin: auto;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #homeNav.responsive line-break {
+    display: inline-block;
+  }
+}
+
+#homeNav line-break {
+  width: 100%;
+  display: none;
 }
   
 
