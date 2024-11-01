@@ -112,7 +112,7 @@ body {
   /* align-items: center; */
 }
 
-@media screen and (max-width: 550px) {
+/* @media screen and (max-width: 550px) {
   #homeNav {
       width: 100%;
       border: 1px solid #b0e2ed;
@@ -126,26 +126,35 @@ body {
       display: block;
       left: 0%;
       right: 0%;
-      /* justify-content: space-between; */
+      justify-content: space-between;
       margin: auto auto;
-      /* align-items: center; */
+      align-items: center;
   }
 
   .introContent {
     width: 100%;
-    left: 0%;
-    right: 0%;
     padding-top: 10px;
     background-color: #ffffff;
     padding-bottom: 50px;
     font-size: 16px;
-    margin: auto;
     text-align: center;
     color: #298194;
   }
 
-  
-}
+  .generalContent {
+    margin-left: -20%;
+    border: 1px solid #b0e2ed;
+    background-color: #eefcff;
+    width: 100%;
+  }
+
+  #homeNav.responsive {
+    width: 100%;
+    left: 0%;
+    right: 0%;
+  }
+
+} */
 /* ---------------------- Style the links inside the navigation bar */
 #homeNav tabName {
   float: left;
