@@ -82,7 +82,7 @@ body {
 
 .introContent {
   max-width: 600px;
-  min-width: 450px;
+  min-width: 350px;
   padding-top: 10px;
   background-color: #ffffff;
   padding-bottom: 50px;
@@ -100,11 +100,11 @@ body {
   top: 0;
   position: fixed;
   text-align: center;
-  left: 22%;
-  right: 22%;
+  left: 22.0%;
+  right: 22.0%;
   border-radius: 4px;
   max-width: 600px;
-  min-width: 450px;
+  min-width: 350px;
   overflow: auto;
   display: block;
   /* justify-content: space-between; */
@@ -207,7 +207,7 @@ width: 100%;
     right: 22%;
     border-radius: 4px;
     max-width: 600px;
-    min-width: 450px;
+    min-width: 350px;
     overflow: auto;
     display: block;
     margin: auto auto;
@@ -262,7 +262,7 @@ width: 100%;
   background-color: #2eb2d0;
   height: 100px;
   width: 160px;
-  min-width: 450px; 
+  min-width: 350px;
   max-width: 600px;
   border-radius: 4px;
   left: 22%;
@@ -275,7 +275,7 @@ width: 100%;
   border: 1px solid #b0e2ed;
   background-color: #eefcff;
   width: 100%;
-  min-width: 450px; 
+  min-width: 350px;
   max-width: 600px;
   scroll-margin-top: 5em;
   border-radius: 4px;
