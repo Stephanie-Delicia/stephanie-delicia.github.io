@@ -92,6 +92,18 @@ body {
   color: #298194;
 }
 
+.testGeneral {
+  text-align: center;
+  border: 1px solid #b0e2ed;
+  background-color: #2eb2d0;
+  max-width: 600px;
+  min-width: 100px;
+  height: 100px;
+  width: 160px;
+  border-radius: 4px;
+  margin: auto auto;
+}
+
 /* ------------------------- Navigation Bar -------------------------*/
 #homeNav {
   border: 1px solid #b0e2ed;
@@ -112,49 +124,6 @@ body {
   /* align-items: center; */
 }
 
-/* @media screen and (max-width: 550px) {
-  #homeNav {
-      width: 100%;
-      border: 1px solid #b0e2ed;
-      font-family: Baskerville;
-      background-color: #eefcff;
-      top: 0;
-      position: fixed;
-      text-align: center;
-      border-radius: 4px;
-      overflow: auto;
-      display: block;
-      left: 0%;
-      right: 0%;
-      justify-content: space-between;
-      margin: auto auto;
-      align-items: center;
-  }
-
-  .introContent {
-    width: 100%;
-    padding-top: 10px;
-    background-color: #ffffff;
-    padding-bottom: 50px;
-    font-size: 16px;
-    text-align: center;
-    color: #298194;
-  }
-
-  .generalContent {
-    margin-left: -20%;
-    border: 1px solid #b0e2ed;
-    background-color: #eefcff;
-    width: 100%;
-  }
-
-  #homeNav.responsive {
-    width: 100%;
-    left: 0%;
-    right: 0%;
-  }
-
-} */
 /* ---------------------- Style the links inside the navigation bar */
 #homeNav tabName {
   float: left;
@@ -300,26 +269,12 @@ width: 100%;
 
 /* --------------------- General Content Boxes ---------------- */
 
-.testGeneral {
-  text-align: center;
-  border: 1px solid #b0e2ed;
-  background-color: #2eb2d0;
-  height: 100px;
-  width: 160px;
-  min-width: 320px;
-  max-width: 600px;
-  border-radius: 4px;
-  left: 22%;
-  right:22%;
-  margin:auto auto;
-}
-
 .generalContent {
   margin: auto auto;
   border: 1px solid #b0e2ed;
   background-color: #eefcff;
   width: 100%;
-  min-width: 320px;
+  min-width: 200px;
   max-width: 600px;
   scroll-margin-top: 5em;
   border-radius: 4px;
@@ -400,7 +355,7 @@ width: 100%;
     margin: auto;
     float: left;
     color: #45a6bb;
-    font-size: 18;
+    font-size: 18px;
   }
 
   a:link {
@@ -554,4 +509,80 @@ ul {
   width: 10px;
   display: inline-block;
   margin:auto;
+}
+
+/* mobile query */
+
+@media screen and (max-width: 550px) {
+  #homeNav {
+      width: 100px;
+      border: 1px solid #b0e2ed;
+      font-family: Baskerville;
+      background-color: #eefcff;
+      top: 0;
+      position: fixed;
+      text-align: center;
+      border-radius: 4px;
+      overflow: auto;
+      display: block;
+      left: 0%;
+      right: 0%;
+      justify-content: space-between;
+      margin: auto auto;
+      align-items: center;
+  }
+
+  .introContent {
+    width: 100%;
+    min-width: 100px;
+    max-width: 200px;
+    background-color: #ffffff;
+    padding-bottom: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: #298194;
+    margin: auto auto;
+  }
+
+  .generalContent {
+    width: 250px;
+    min-width: 250px;
+    max-width: 250px;
+    margin: auto auto;
+    display: block;
+    font-size: 16px;
+  }
+
+  .testGeneral {
+    width: 100%;
+    margin: auto auto;
+    display: block;
+    font-size: 14px;
+  }
+
+  .generalContent > content {
+    font-size: 16px;
+    width: 85%;
+  }
+
+  .generalContent > header {
+    font-size: 18px;
+  }
+
+  .generalContent > line {
+    width: 90%;
+  }
+
+  .generalContent > smolContent {
+    font-size: 16px;
+  }
+
+  #homeNav.responsive {
+    width: 100px;
+    margin: auto auto;
+    left: 0%;
+    right: 0%;
+    max-width: 600px;
+    min-width: 320px;
+  }
 }
