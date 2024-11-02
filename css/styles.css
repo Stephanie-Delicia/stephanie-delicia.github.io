@@ -4,12 +4,15 @@ html {
 
 * {
   font-family: 'Baskerville';
+  margin: 0; padding: 0;
 }
 
 body {
-  /* for SOME reason, setting margin to 0 eliminates any gaps to the left. */
-  min-width: 220px;
-}
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  }
 
 /* -------------------------  Mini Stoof sprite elements. -------------------------*/
 #sprite { 
@@ -112,10 +115,10 @@ body {
   top: 0;
   position: fixed;
   text-align: center;
-  left: 22.0%;
-  right: 22.0%;
+  left: 21.5%;
+  right: 21.5%;
   border-radius: 4px;
-  max-width: 600px;
+  max-width: 660px;
   min-width: 320px;
   overflow: auto;
   display: block;
@@ -515,7 +518,7 @@ ul {
 
 @media screen and (max-width: 550px) {
   #homeNav {
-      width: 100px;
+      width: 90%;
       border: 1px solid #b0e2ed;
       font-family: Baskerville;
       background-color: #eefcff;
@@ -534,8 +537,6 @@ ul {
 
   .introContent {
     width: 100%;
-    min-width: 100px;
-    max-width: 200px;
     background-color: #ffffff;
     padding-bottom: 40px;
     font-size: 16px;
@@ -546,22 +547,27 @@ ul {
 
   .generalContent {
     width: 100%;
-    min-width: 200px;
-    max-width: 250px;
     display: block;
     font-size: 16px;
   }
 
+  .content {
+    padding-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+
   .testGeneral {
+    margin: 0;
     width: 100%;
-    margin: auto auto;
+    overflow:hidden;
     display: block;
-    font-size: 14px;
+    background-color: #ffd207;
   }
 
   .generalContent > content {
     font-size: 16px;
-    width: 85%;
+    width: 90%;
   }
 
   .generalContent > header {
@@ -577,7 +583,7 @@ ul {
   }
 
   #homeNav.responsive {
-    width: 100px;
+    width: 90%;
     margin: auto auto;
     left: 0%;
     right: 0%;
@@ -616,7 +622,7 @@ ul {
   }
 
   .generalContent > jobContent {
-    width: 85%;
+    width: 90%;
     margin: auto;
     padding-right: 20px;
     padding-left: 20px;
