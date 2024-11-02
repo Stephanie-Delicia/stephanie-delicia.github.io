@@ -566,7 +566,7 @@ ul {
   }
 
   .generalContent > header {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .generalContent > line {
@@ -585,4 +585,151 @@ ul {
     max-width: 600px;
     min-width: 320px;
   }
+
+  .generalContent > year {
+    width: 90%;
+    margin: auto;
+    float: right;
+    font-size: 12px;
+  }
+
+  .generalContent > company {
+    width: 85%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+    margin: auto;
+    float: left;
+    font-size: 16px;
+  }
+
+  .generalContent > position {
+    font-style: italic;
+    padding-right: 20px;
+    width: 85%;
+    margin: auto;
+    padding-left: 20px;
+    float: left;
+    bottom: -10px;
+    font-size: 16px;
+  }
+
+  .generalContent > jobContent {
+    width: 85%;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    float: left;
+    bottom: -10px;
+    font-size: 16px;
+  }
+
+  .contact-form-box {
+    background-color: #fff;
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+    border-width: 2px;
+    border-color: #000000;
+  }
+  
+  .form-group {
+    text-align: center;
+    padding-bottom: 8px;
+    
+  }
+  
+  input {
+    font-size: 16px;
+    border: none ;
+    border-radius: 4px;
+    height: 35px;
+    font-family: Baskerville;
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: #ffffff;
+  }
+  
+  input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    border: 1px solid green;
+  }
+  
+  textarea {
+    text-align: left;
+    border-radius: 4px;
+    font-family: Baskerville;
+    width: 80%;
+    background-color: #ffffff;
+    resize: none; 
+    height: 150px;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }
+  
+  .submit-button {
+    border-radius: 4px;
+    text-align: center;
+    font-family: Baskerville;
+    height: 30px;
+    width: 60%;
+    margin: auto;
+    display: block;
+    font-size: 14px;
+  }
+  
+  /* Add styles to 'label' selector */
+  label {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-bottom: 2px;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  input[type=submit] {
+      background: #45a6bb;
+      box-shadow: none;
+      margin: 0 auto;
+      outline: 0;
+      color: white;
+      height: 35px;
+      border: 0;
+      border-radius: 4px;
+      transition: all ease-in-out 0.1s;
+      display: inline-block;
+      text-align: center;
+      font-size: 14px;
+  }
+  
+  /* Style 'hover' property */
+  input[type=submit]:hover {
+    background: #6bcae0;
+  }
+  
+  .centerText {
+    display: none;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    color: #157186;
+    width: 95%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .spriteText {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    font-size: 0px;
+    color: #45a6bb;
+    top:0;
+    width: 22%;
+  }
+
 }
