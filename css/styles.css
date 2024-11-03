@@ -115,13 +115,14 @@ body {
   top: 0;
   position: fixed;
   text-align: center;
-  left: 21.5%;
-  right: 21.5%;
+  width: 56.5%;
   border-radius: 4px;
-  max-width: 660px;
-  min-width: 320px;
-  overflow: auto;
+  min-width: 200px;
+  max-width: 600px;
+  overflow: hidden;
   display: block;
+  transform: translateX(-50%);
+  left: 50%;
   /* justify-content: space-between; */
   margin: auto auto;
   /* align-items: center; */
@@ -219,11 +220,14 @@ width: 100%;
     top: 0;
     position: fixed;
     text-align: center;
-    left: 22%;
-    right: 22%;
+    width: 56.5%;
     border-radius: 4px;
+    min-width: 200px;
     max-width: 600px;
-    min-width: 320px;
+    overflow: hidden;
+    display: block;
+    transform: translateX(-50%);
+    left: 50%;
     overflow: auto;
     display: block;
     margin: auto auto;
@@ -518,7 +522,7 @@ ul {
 
 @media screen and (max-width: 550px) {
   #homeNav {
-      width: 90%;
+      /* width: 91%;
       border: 1px solid #b0e2ed;
       font-family: Baskerville;
       background-color: #eefcff;
@@ -532,7 +536,25 @@ ul {
       right: 0%;
       justify-content: space-between;
       margin: auto auto;
-      align-items: center;
+      align-items: center; */
+
+      border: 1px solid #b0e2ed;
+      font-family: Baskerville;
+      background-color: #eefcff;
+      top: 0;
+      position: fixed;
+      text-align: center;
+      width: 91%;
+      border-radius: 4px;
+      min-width: 200px;
+      max-width: 600px;
+      overflow: hidden;
+      display: block;
+      transform: translateX(-50%);
+      left: 50%;
+      /* justify-content: space-between; */
+      margin: auto auto;
+      /* align-items: center; */
   }
 
   .introContent {
@@ -583,12 +605,12 @@ ul {
   }
 
   #homeNav.responsive {
-    width: 90%;
+    width: 91%;
     margin: auto auto;
-    left: 0%;
-    right: 0%;
+    min-width: 200px;
     max-width: 600px;
-    min-width: 320px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .generalContent > year {
