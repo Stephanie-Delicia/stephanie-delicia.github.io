@@ -85,7 +85,7 @@ body {
 
 .introContent {
   max-width: 600px;
-  min-width: 320px;
+  min-width: 400px;
   padding-top: 10px;
   background-color: #ffffff;
   padding-bottom: 50px;
@@ -100,7 +100,7 @@ body {
   border: 1px solid #b0e2ed;
   background-color: #2eb2d0;
   max-width: 600px;
-  min-width: 100px;
+  min-width: 400px;
   height: 100px;
   width: 160px;
   border-radius: 4px;
@@ -117,7 +117,7 @@ body {
   text-align: center;
   width: 56.5%;
   border-radius: 4px;
-  min-width: 200px;
+  min-width: 400px;
   max-width: 600px;
   overflow: hidden;
   display: block;
@@ -222,7 +222,7 @@ width: 100%;
     text-align: center;
     width: 56.5%;
     border-radius: 4px;
-    min-width: 200px;
+    min-width: 400px;
     max-width: 600px;
     overflow: hidden;
     display: block;
@@ -281,7 +281,7 @@ width: 100%;
   border: 1px solid #b0e2ed;
   background-color: #eefcff;
   width: 100%;
-  min-width: 200px;
+  min-width: 400px;
   max-width: 600px;
   scroll-margin-top: 5em;
   border-radius: 4px;
@@ -520,7 +520,7 @@ ul {
 
 /* mobile query */
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 725px) {
   #homeNav {
       /* width: 91%;
       border: 1px solid #b0e2ed;
@@ -546,8 +546,8 @@ ul {
       text-align: center;
       width: 91%;
       border-radius: 4px;
-      min-width: 200px;
-      max-width: 600px;
+      min-width: 400px;
+      max-width: 410px;
       overflow: hidden;
       display: block;
       transform: translateX(-50%);
@@ -559,6 +559,8 @@ ul {
 
   .introContent {
     width: 100%;
+    min-width: 400px;
+    max-width: 410px;
     background-color: #ffffff;
     padding-bottom: 40px;
     font-size: 16px;
@@ -568,7 +570,8 @@ ul {
   }
 
   .generalContent {
-    width: 100%;
+    min-width: 400px;
+    max-width: 410px;
     display: block;
     font-size: 16px;
   }
@@ -607,8 +610,8 @@ ul {
   #homeNav.responsive {
     width: 91%;
     margin: auto auto;
-    min-width: 200px;
-    max-width: 600px;
+    min-width: 400px;
+    max-width: 410px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -690,7 +693,7 @@ ul {
     width: 80%;
     background-color: #ffffff;
     resize: none; 
-    height: 150px;
+    height: 100px;
     font-size: 16px;
     border: 1px solid rgba(0, 0, 0, 0.8);
   }
