@@ -522,22 +522,6 @@ ul {
 
 @media screen and (max-width: 725px) {
   #homeNav {
-      /* width: 91%;
-      border: 1px solid #b0e2ed;
-      font-family: Baskerville;
-      background-color: #eefcff;
-      top: 0;
-      position: fixed;
-      text-align: center;
-      border-radius: 4px;
-      overflow: auto;
-      display: block;
-      left: 0%;
-      right: 0%;
-      justify-content: space-between;
-      margin: auto auto;
-      align-items: center; */
-
       border: 1px solid #b0e2ed;
       font-family: Baskerville;
       background-color: #eefcff;
@@ -546,20 +530,18 @@ ul {
       text-align: center;
       width: 91%;
       border-radius: 4px;
-      min-width: 400px;
+      min-width: 300px;
       max-width: 410px;
       overflow: hidden;
       display: block;
       transform: translateX(-50%);
       left: 50%;
-      /* justify-content: space-between; */
       margin: auto auto;
-      /* align-items: center; */
   }
 
   .introContent {
     width: 100%;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 410px;
     background-color: #ffffff;
     padding-bottom: 40px;
@@ -570,7 +552,7 @@ ul {
   }
 
   .generalContent {
-    min-width: 400px;
+    min-width: 300px;
     max-width: 410px;
     display: block;
     font-size: 16px;
@@ -610,7 +592,7 @@ ul {
   #homeNav.responsive {
     width: 91%;
     margin: auto auto;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 410px;
     left: 50%;
     transform: translateX(-50%);
