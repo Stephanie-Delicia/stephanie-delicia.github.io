@@ -74,8 +74,9 @@ body {
 /* --------------------- Intro Content Box ---------------- */
 
 .introContent {
-  max-width: 650px;
-  min-width: 625px;
+  width: 100%;
+  min-width: 300px;
+  max-width: 600px;
   padding-top: 10px;
   background-color: #ffffff;
   padding-bottom: 15px;
@@ -93,7 +94,7 @@ body {
   top: 0;
   position: fixed;
   text-align: center;
-  width: 56.5%;
+  width: 100%;
   border-radius: 4px;
   min-width: 300px;
   max-width: 600px;
@@ -101,9 +102,7 @@ body {
   display: block;
   transform: translateX(-50%);
   left: 50%;
-  /* justify-content: space-between; */
   margin: auto auto;
-  /* align-items: center; */
 }
 
 /* ---------------------- Style the links inside the navigation bar */
@@ -158,10 +157,10 @@ body {
 }
 
 .content {
-padding-top: 100px;
-margin-left: 22%;
-margin-right: 22%;
-}
+  padding-top: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+  }
 
 .sticky {
 position: fixed;
@@ -460,7 +459,9 @@ width: 100%;
       grid-template-columns: auto auto auto auto;
       background-color: #ffffff00;
       margin: auto auto;
-      width: 80%;
+      width: 100%;
+      min-width: 300px;
+      max-width: 600px;
       padding-bottom: 30px;
       padding-top: 35px;
     }
@@ -567,9 +568,45 @@ width: 100%;
     border-radius: 10px;
     width: 100%;
   }
+
+  #homeNav {
+    border: 1px solid #b0e2ed;
+    font-family: Baskerville;
+    background-color: #eefcff;
+    top: 0;
+    position: fixed;
+    text-align: center;
+    width: 90%;
+    border-radius: 4px;
+    min-width: 300px;
+    max-width: 600px;
+    overflow: hidden;
+    display: block;
+    transform: translateX(-50%);
+    left: 50%;
+    margin: auto auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
+  #homeNav {
+    border: 1px solid #b0e2ed;
+    font-family: Baskerville;
+    background-color: #eefcff;
+    top: 0;
+    position: fixed;
+    text-align: center;
+    width: 90%;
+    border-radius: 4px;
+    min-width: 300px;
+    max-width: 600px;
+    overflow: hidden;
+    display: block;
+    transform: translateX(-50%);
+    left: 50%;
+    margin: auto auto;
+  }
+
   .grid-container-four {
     padding-top: 15px;
     display: grid;
