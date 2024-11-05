@@ -9,7 +9,7 @@ html {
 body {
   /* for SOME reason, setting margin to 0 eliminates any gaps to the left. */
   margin: 0;
-  min-width: 350px;
+  min-width: 300px;
 }
 
 
@@ -87,171 +87,139 @@ body {
 
 /* ------------------------- Navigation Bar -------------------------*/
 #homeNav {
-    z-index: 999999;
-    border: 1px solid #b0e2ed;
-    font-family: Baskerville;
-    background-color: #eefcff;
-    top: 0;
-    position: fixed;
-    text-align: center;
-    margin: auto auto;
-    border-radius: 4px;
-    max-width: 650px;
-    min-width: 625px;
-    left: 22%;
-    right:22%;
-    overflow: hidden;
-    display: inline-block;
-    height: fit-content;
-    margin: auto auto;
-  }
-  /* ---------------------- Style the links inside the navigation bar */
-  #homeNav tabName {
-    float: left;
-    text-align: center;
-    display: block;
-    padding: 14px;
-    text-decoration: none;
-    font-size: 18px;
-    color:#000000;
-  }
+  border: 1px solid #b0e2ed;
+  font-family: Baskerville;
+  background-color: #eefcff;
+  top: 0;
+  position: fixed;
+  text-align: center;
+  width: 56.5%;
+  border-radius: 4px;
+  min-width: 300px;
+  max-width: 600px;
+  overflow: hidden;
+  display: block;
+  transform: translateX(-50%);
+  left: 50%;
+  /* justify-content: space-between; */
+  margin: auto auto;
+  /* align-items: center; */
+}
 
-  #homeNav tab {
-    float: right;
-    color: #041a32;
-    text-align: center;
-    width: 120px;
-    height: 100%;
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Change the color of links on hover */
-  #homeNav tab:hover {
-    background-color: #b6d5e7;
-    color: black;
-    border-radius: 4px;
-  }
-  
-  /* Add a color to the active/current link */
-  #homeNav tab.active {
-    background-color: #45a6bb;
-    color: white;
-    border-radius: 4px;
-  }
+/* ---------------------- Style the links inside the navigation bar */
+#homeNav tabName {
+  float: left;
+  text-align: center;
+  display: block;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 18px;
+  color:#000000;
+}
+
+#homeNav tab-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#homeNav tab {
+  margin-left: auto;
+  color: #041a32;
+  text-align: center;
+  width: 58px;
+  height: 18px;
+  padding: 15px;
+  text-decoration: none; 
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  border-radius: 4px;
+  align-items: center;
+}
+
+/* Change the color of links on hover */
+#homeNav tab:hover {
+  background-color: #b6d5e7;
+  text-align: center;
+  color: black;
+  border-radius: 4px;
+  margin-left: auto;
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+#homeNav tab.active {
+  background-color: #45a6bb;
+  text-align: center;
+  color: white;
+  border-radius: 4px;
+  margin-left: auto;
+}
 
 .content {
-  padding-top: 100px;
-  margin-left: 22%;
-  margin-right: 22%;
+padding-top: 100px;
+margin-left: 22%;
+margin-right: 22%;
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+position: fixed;
+top: 0;
+width: 100%;
 }
 
   
 
 /* --------------------- General Content Boxes ---------------- */
 .generalContent {
+  margin: auto auto;
   border: 1px solid #b0e2ed;
   background-color: #eefcff;
   width: 100%;
-  max-width: 650px;
-  min-width: 625px;
-  overflow: hidden;
-  top: 200px;
+  min-width: 300px;
+  max-width: 600px;
   scroll-margin-top: 5em;
   border-radius: 4px;
   padding-bottom: 15px;
+  overflow: hidden;
   height: fit-content;
-  margin: auto auto;
 }
 
-  .generalContent header {
-    overflow-x: hidden;
-    padding-left: 20px;
-    padding-top: 18px;
-    margin: auto;
-    font-size: 24px;
-    width: 100%;
-  }
+.generalContent header {
+  padding-left: 20px;
+  padding-top: 18px;
+  margin: auto auto;
+  font-size: 24px;
+  width: 100%;
+}
 
-  .generalContent content {
-    overflow-x: hidden;
-    margin: auto;
-    padding: 20px;
-    float: left;
-    width: 93%;
-    padding-top: 15px;
-    font-size: 18px;
-  }
+.generalContent content {
+  margin: auto auto;
+  padding: 20px;
+  float: left;
+  width: 93%;
+  padding-top: 15px;
+  font-size: 18px;
+}
 
-  .generalContent line {
-    overflow-x: hidden;
-    margin:auto;
-    width: 95%;
-    top: 50%;
-    height: 1px;
-    background: rgb(0, 0, 0);
-    content: "";
-    display: block;
-  }
+.generalContent line {
+  margin: auto;
+  width: 95%;
+  top: 50%;
+  height: 1px;
+  background: rgb(0, 0, 0);
+  content: "";
+  display: block;
+}
 
-  .generalContent year {
-    width: 93%;
-    margin: auto;
-    float: right;
-    padding-right: 40;
-    font-size: 16;
-  }
-
-  .generalContent company {
-    width: 90%;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-weight: 600;
-    padding-left: 20px;
-    margin: auto;
-    float: left;
-    font-size: 19px;
-  }
-
-  .generalContent position {
-    font-style: italic;
-    padding-right: 20px;
-    width: 92%;
-    margin: auto;
-    padding-left: 20px;
-    float: left;
-    bottom: -10px;
-    font-size: 18px;
-  }
-
-  .generalContent jobContent {
-    width: 92%;
-    margin: auto;
-    padding-right: 20px;
-    padding-left: 20px;
-    float: left;
-    bottom: -10px;
-    font-size: 18px;
-  }
-
-  .generalContent smolContent {
-    margin: auto;
-    float: left;
-    color: #45a6bb;
-    font-size: 18;
-  }
+.generalContent year {
+  width: 93%;
+  margin: auto;
+  float: right;
+  padding-right: 40;
+  font-size: 16;
+}
 
   a:link {
     text-decoration: underline;
@@ -290,7 +258,7 @@ body {
     margin: auto;
     text-align: center;
     max-width: 650px;
-    min-width: 625px;
+    min-width: 300px;
   }
 
   /* --------------------- Video ---------------- */
@@ -308,11 +276,6 @@ body {
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.8);
     width: 100%;
-
-
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
   }
 
   .bulletBox {
@@ -334,8 +297,6 @@ body {
       right: 0;
       left: 0;
       border-radius: 10px;
-      margin-right: auto;
-      margin-left: auto;
       width: 100%;
     }
 
@@ -592,3 +553,32 @@ body {
       display: inline-block;
       margin:auto;
     }
+
+/* three grid dims */
+@media screen and (max-width: 1060px) {
+  .grid-container-four {
+    padding-top: 15px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto ;
+    background-color: #ffffff00;
+    right: 0;
+    left: 0;
+    border-radius: 10px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid-container-four {
+    padding-top: 15px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto ;
+    background-color: #ffffff00;
+    right: 0;
+    left: 0;
+    border-radius: 10px;
+    width: 100%;
+  }
+}
