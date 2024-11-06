@@ -587,7 +587,7 @@ width: 100%;
 
 @media screen and (max-width: 660px) {
   .dropdown-content {
-    width: 95%;
+    width: 100%;
     height: fit-content;
     margin: auto auto;
     border-bottom-left-radius: 4px;
@@ -601,7 +601,7 @@ width: 100%;
   }
 
   .dropdown-img {
-    width: 95%;
+    width: 100%;
     height: 20px;
     font-size: 16px;
     text-align: left;
@@ -643,12 +643,25 @@ width: 100%;
   }
 
   .generalContent content {
-    margin: auto auto;
-    padding: 2.5px;
+    padding-left: 5%;
     float: left;
     width: 98%;
     padding-top: 15px;
     font-size: 17px;
+  }
+
+  .generalContent > content {
+    font-size: 16px;
+    width: 90%;
+    margin: auto auto;
+  }
+
+  .generalContent > header {
+    font-size: 20px;
+  }
+
+  .generalContent > line {
+    width: 92%;
   }
 
   .grid-container-trans {
@@ -683,6 +696,7 @@ width: 100%;
     height: 122px;
     width: 122px;
 }
+
 }
 
 @media screen and (max-width: 330px) {
@@ -717,11 +731,32 @@ width: 100%;
   }
 
   .generalContent content {
-    margin: auto auto;
-    padding: 10px;
+    padding-left: 5%;
     float: left;
     width: 98%;
     padding-top: 15px;
+    font-size: 17px;
+  }
+
+  .generalContent > content {
     font-size: 16px;
+    width: 90%;
+    margin: auto auto;
+  }
+
+  .generalContent > header {
+    font-size: 20px;
+  }
+
+  .generalContent > line {
+    width: 92%;
+  }
+
+  .videoBox {
+    display: inline-block;
+    margin: auto auto;
+    max-width: 100%;
+    text-align: center;
+    overflow: hidden; 
   }
 }
