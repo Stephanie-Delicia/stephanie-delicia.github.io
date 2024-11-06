@@ -262,7 +262,7 @@ width: 100%;
   /* --------------------- Video ---------------- */
 
   .videoBox {
-    display: inline-block;
+    display: block;
     margin: auto auto;
     max-width: 100%;
     text-align: center;
@@ -714,6 +714,13 @@ width: 100%;
   align-items: center;
 }
 
+.videoBox {
+  display: block;
+  margin: auto auto;
+  max-width: 90%;
+  text-align: center;
+  overflow: hidden; 
+}
 
 .headerProject {
   overflow-x: hidden;
@@ -780,9 +787,9 @@ width: 100%;
   }
 
   .videoBox {
-    display: inline-block;
+    display: block;
     margin: auto auto;
-    max-width: 100%;
+    max-width: 90%;
     text-align: center;
     overflow: hidden; 
   }
