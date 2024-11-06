@@ -125,7 +125,7 @@ body {
   margin-left: auto;
   color: #041a32;
   text-align: center;
-  width: 58px;
+  width: 120px;
   height: 18px;
   padding: 15px;
   text-decoration: none; 
@@ -461,10 +461,12 @@ width: 100%;
       min-width: 300px;
       max-width: 600px;
       padding-bottom: 30px;
+      text-decoration: none;
       padding-top: 35px;
     }
 
     .grid-project {
+      text-decoration: none;
       border: 1px solid #b0e2ed;
       background-color: #eefcff;
       border-radius: 4px;
@@ -696,6 +698,22 @@ width: 100%;
     width: 122px;
 }
 
+#homeNav tab {
+  margin-left: auto;
+  color: #041a32;
+  text-align: center;
+  width: 120px;
+  height: 18px;
+  padding: 15px;
+  text-decoration: none; 
+  font-size: 13px;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  border-radius: 4px;
+  align-items: center;
+}
+
 }
 
 @media screen and (max-width: 330px) {
@@ -757,5 +775,21 @@ width: 100%;
     max-width: 100%;
     text-align: center;
     overflow: hidden; 
+  }
+
+  #homeNav tab {
+    margin-left: auto;
+    color: #041a32;
+    text-align: center;
+    width: 120px;
+    height: 18px;
+    padding: 15px;
+    text-decoration: none; 
+    font-size: 10px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    align-items: center;
   }
 }
