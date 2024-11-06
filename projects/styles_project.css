@@ -289,7 +289,6 @@ width: 100%;
     .grid-container-four {
       padding-top: 15px;
       display: grid;
-      gap: 10px;
       grid-template-columns: auto auto auto auto;
       background-color: #ffffff00;
       right: 0;
@@ -329,7 +328,7 @@ width: 100%;
       background-color: #ffffff00;
       display: inline-block;
       height: 205px;
-      width: 140px;
+      width: 132px;
       font-size: 16px;
       margin: auto;
       text-align: center;
@@ -337,6 +336,13 @@ width: 100%;
       align-items: center;
       overflow: hidden;
     }
+
+    .grid-item-img img {
+      border-radius: 10px;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      height: 153px;
+      width: 117px;
+  }
 
     .grid-item-trans {
       background-color: #ffffff00;
@@ -413,19 +419,12 @@ width: 100%;
       height: 163px;
       width: 163px;
   }
-
-    .grid-item-img img {
-      border-radius: 10px;
-      border: 1px solid rgba(0, 0, 0, 0.8);
-      height: 170px;
-      width: 130px;
-  }
   
     .grid-item-phone {
       background-color: #ffffff00;
       display: inline-block;
       height: 290px;
-      width: 135px;
+      width: 132.5px;
       font-size: 16px;
       margin: auto;
       text-align: center;
@@ -437,8 +436,8 @@ width: 100%;
     .grid-item-phone img {
       border-radius: 10px;
       border: 1px solid rgba(0, 0, 0, 0.8);
-      height: 264px;
-      width: 130px;
+      height: 237.5px;
+      width: 117px;
   }
 
   /* ------------------------ Image stuff ------------------------ */
