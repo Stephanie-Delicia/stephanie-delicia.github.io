@@ -186,7 +186,7 @@ html {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;
-    max-width: 350px;
+    max-width: 370px;
     max-height: 350px;
 }
 
@@ -194,7 +194,7 @@ html {
     opacity: 50%;
     min-width: 100%;
     min-height: 100%;
-    max-width: 350px;
+    max-width: 370px;
     max-height: 350px;
     transition: .2s ease;
 }
@@ -220,7 +220,7 @@ html {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;
-    max-width: 280px;
+    max-width: 300px;
     max-height: 280px;
 }
 }
@@ -256,7 +256,7 @@ html {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;
-    max-width: 280px;
+    max-width: 300px;
     max-height: 280px;
 }
 }
@@ -281,7 +281,7 @@ html {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;
-    max-width: 280px;
+    max-width: 300px;
     max-height: 280px;
 }
 
@@ -298,7 +298,6 @@ html {
 }
 
 @media screen and (max-width: 650px) {
-
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -318,8 +317,8 @@ html {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;
-    max-width: 224px;
-    max-height: 224px;
+    max-width: 260px;
+    max-height: 260px;
 }
 
 .grid-container {
@@ -355,8 +354,8 @@ html {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;
-    max-width: 240px;
-    max-height: 240px;
+    max-width: 260px;
+    max-height: 260px;
 }
 
 .grid-container {
