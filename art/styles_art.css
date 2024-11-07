@@ -192,10 +192,8 @@ html {
 
 .grid-item img:hover {
     opacity: 50%;
-    min-width: 100%;
+    width: auto;
     min-height: 100%;
-    max-width: 370px;
-    max-height: 350px;
     transition: .2s ease;
 }
 
@@ -222,6 +220,11 @@ html {
     min-height: 100%;
     max-width: 300px;
     max-height: 280px;
+}
+
+.grid-item img:hover {
+  opacity: 50%;
+  transition: .2s ease;
 }
 }
 
@@ -259,6 +262,11 @@ html {
     max-width: 300px;
     max-height: 280px;
 }
+
+.grid-item img:hover {
+  opacity: 50%;
+  transition: .2s ease;
+}
 }
 
 @media screen and (max-width: 750px) {
@@ -294,6 +302,11 @@ html {
   border-radius: 10px;
   text-align: center;
   margin: auto auto;
+}
+
+.grid-item img:hover {
+  opacity: 50%;
+  transition: .2s ease;
 }
 }
 
@@ -331,6 +344,11 @@ html {
   text-align: center;
   margin: auto auto;
 }
+
+.grid-item img:hover {
+  opacity: 50%;
+  transition: .2s ease;
+}
 }
 
 @media screen and (max-width: 550px) {
@@ -367,5 +385,10 @@ html {
   border-radius: 10px;
   text-align: center;
   margin: auto auto;
+}
+
+.grid-item img:hover {
+  opacity: 50%;
+  transition: .2s ease;
 }
 }
