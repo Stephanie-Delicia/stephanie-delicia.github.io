@@ -10,6 +10,72 @@ html {
     /* for SOME reason, setting margin to 0 eliminates any gaps to the left. */
     margin: 0;
   }
+
+  /* slideshow items */
+
+  .slide-container {
+    position: fixed;
+    top: 50.2px;
+    height: 100%;
+    width: 100%;
+    background-color: #000000e5;
+    display: none; 
+    /* change to flex */
+    justify-content: center;
+  }
+
+  .slide-container img-container {
+    height: 82.5%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .slide-container img-container img {
+    width: 100%;
+  }
+
+  .slide-container desc {
+    position: absolute;
+    bottom: 13%;
+    width: 100%;
+    text-align: center;
+    color:white;
+    font-size: 15px;
+  }
+
+  .slide-container exit {
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 10px;
+  }
+
+  .slide-container arrow-left, arrow-right {
+    cursor: pointer;
+    position: absolute;
+    top: 46%;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+  }
+
+  .slide-container arrow-left {
+    margin-left: auto;
+    left: 0;
+    border-top:   12px solid transparent;
+    border-right:  18px solid #ffffff; 
+    border-bottom: 12px solid transparent;
+  }
+
+  .slide-container arrow-right {
+    margin-right: auto;
+    right:0;
+    border-top:   12px solid transparent;
+    border-left:  18px solid #ffffff; 
+    border-bottom: 12px solid transparent;
+  }
   
   /* -------------------------  Mini Stoof sprite elements. -------------------------*/
   #sprite { 

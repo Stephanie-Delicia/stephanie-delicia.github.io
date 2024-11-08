@@ -30,24 +30,36 @@
         </div>
 
         <div class="introContent"> 
-            I like to make drawings using traditional or digital mediums.
+            I like to make drawings using traditional or digital mediums. Click on any drawing to view their description.
         </div>  
       </div>
 
-      <!-- <div class="box-test">
-
-      </div> -->
-
       <div class="grid-container">
-        <div class="grid-item"> <img id="drawing1" src="drawing1.png"> </div>
-        <div class="grid-item"> <img id="drawing15" src="drawing15.JPEG"/> </div>
-        <div class="grid-item"> <img id="drawing2" src="drawing2.JPG"/> </div>
-        <div class="grid-item"><img id="drawing3" src="drawing3.JPG"/></div>
-        <div class="grid-item"><img id="drawing4" src="drawing4.JPG"/></div>
-        <div class="grid-item"><img id="drawing5" src="drawing5.JPG"/></div>
+        <div class="grid-item"><img id="drawing1" src="drawing1.png"></div>
+        <div class="grid-item"><img id="drawing2" src="drawing15.JPEG"/></div>
+        <div class="grid-item"><img id="drawing3" src="drawing2.JPG"/></div>
+        <div class="grid-item"><img id="drawing4" src="drawing3.JPG"/></div>
+        <div class="grid-item"><img id="drawing5" src="drawing4.JPG"/></div>
+        <div class="grid-item"><img id="drawing6" src="drawing5.JPG"/></div>
         <div class="grid-item"><img id="drawing7" src="drawing7.JPG"/></div>
-        <div class="grid-item"><img id="drawing9" src="drawing9.png"/></div>
-      </div> 
+        <div class="grid-item"><img id="drawing8" src="drawing9.png"/></div>
+      </div>
+
+      <div class="slide-container" id = "drawing1slide" onclick="drawingClicked()">
+        <exit onclick="slideExit()">X</exit>
+        <arrow-left onclick="slideArrowClicked()"></arrow-left>
+        <arrow-right onclick="slideArrowClicked()"></arrow-right>
+        <img-container> <img src="drawing1.png"> </img-container>
+        <desc>Hello bishes.</desc>
+      </div>
+
+      <div class="slide-container" id = "drawing2slide">
+        <exit onclick="slideExit()">X</exit>
+        <arrow-left onclick="slideArrowClicked()"></arrow-left>
+        <arrow-right onclick="slideArrowClicked()"></arrow-right>
+        <img-container> <img src="drawing15.JPEG"> </img-container>
+        <desc>Hello bishes.</desc>
+      </div>
 
 </body>
 </html>
