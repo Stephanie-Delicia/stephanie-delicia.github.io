@@ -17,11 +17,9 @@
         <tab-container><a href="../index.html"> <tab id = "mainPage"> Return to homepage </tab></a></tab-container>
     </div> 
 
-    <!-- Sticky bar animation -->
-    <script src="js/sticky_bar.js"></script> 
-
-    <!-- Tab clicked animation -->
-    <script src="js/nav_tab.js"></script> 
+     <!-- Slideshow -->
+     <script src="/js/drawingClicked.js"></script> 
+     <script src="/js/slideExit.js"></script> 
 
     <!-- intro -->
     <div class="content" id="top">
@@ -35,8 +33,8 @@
       </div>
 
       <div class="grid-container">
-        <div class="grid-item"><img id="drawing1" src="drawing1.png"></div>
-        <div class="grid-item"><img id="drawing2" src="drawing15.JPEG"/></div>
+        <div class="grid-item"><img id="drawing1" src="drawing1.png" onclick="drawingClicked()"></div>
+        <div class="grid-item"><img id="drawing2" src="drawing15.JPEG" onclick="drawingClicked()"></div>
         <div class="grid-item"><img id="drawing3" src="drawing2.JPG"/></div>
         <div class="grid-item"><img id="drawing4" src="drawing3.JPG"/></div>
         <div class="grid-item"><img id="drawing5" src="drawing4.JPG"/></div>
@@ -45,21 +43,77 @@
         <div class="grid-item"><img id="drawing8" src="drawing9.png"/></div>
       </div>
 
-      <div class="slide-container" id = "drawing1slide" onclick="drawingClicked()">
-        <exit onclick="slideExit()">X</exit>
-        <arrow-left onclick="slideArrowClicked()"></arrow-left>
-        <arrow-right onclick="slideArrowClicked()"></arrow-right>
+      <div class="slide-container" id = "drawing1S">
+        <exit onclick="drawingClicked()" id = "1"> X </exit>
+        <!-- <arrow-left onclick="slideArrowClicked()"></arrow-left>
+        <arrow-right onclick="slideArrowClicked()"></arrow-right> -->
         <img-container> <img src="drawing1.png"> </img-container>
-        <desc>Hello bishes.</desc>
+        <desc>I drew a woman digitally, using the iphone application, Sketchbook. </desc>
       </div>
 
-      <div class="slide-container" id = "drawing2slide">
-        <exit onclick="slideExit()">X</exit>
+      <div class="slide-container" id = "drawing2S">
+        <exit onclick="slideExit()" id = "2">X</exit>
+        <!-- <arrow-left onclick="slideArrowClicked()"></arrow-left>
+        <arrow-right onclick="slideArrowClicked()"></arrow-right> -->
+        <img-container> <img src="drawing15.JPEG"> </img-container>
+        <desc>I drew actress Anna Sawai in her role as Mariko (Shogun) using color pencil and acrylic paint. </desc>
+      </div>
+
+      <div class="slide-container" id = "drawing3S">
+        <exit onclick="slideExit()" id = "3">X</exit>
+        <!-- <arrow-left onclick="slideArrowClicked()"></arrow-left>
+        <arrow-right onclick="slideArrowClicked()"></arrow-right> -->
+        <img-container> <img src="drawing2.JPG"> </img-container>
+        <desc>I drew my parents using color pencil and acrylic paint.</desc>
+      </div>
+
+      <div class="slide-container" id = "drawing4S">
+        <exit onclick="slideExit()" id = "4">X</exit>
+        <!-- <arrow-left onclick="slideArrowClicked()"></arrow-left>
+        <arrow-right onclick="slideArrowClicked()"></arrow-right> -->
+        <img-container> <img src="drawing3.JPG"> </img-container>
+        <desc>I drew this flower using color pencil and acrylic paint.</desc>
+      </div>
+
+    <div class="slide-container" id = "drawing5S">
+        <exit onclick="slideExit()" id = "5">X</exit>
+        <!-- <arrow-left onclick="slideArrowClicked()"></arrow-left>
+        <arrow-right onclick="slideArrowClicked()"></arrow-right> -->
+        <img-container> <img src="drawing4.JPG"> </img-container>
+        <desc>I drew myself using color pencil.</desc>
+      </div>
+
+      <div class="slide-container" id = "drawing6S">
+        <exit onclick="slideExit()" id = "6">X</exit>
+        <!-- <arrow-left onclick="slideArrowClicked()"></arrow-left>
+        <arrow-right onclick="slideArrowClicked()"></arrow-right> -->
+        <img-container> <img src="drawing5.JPG"> </img-container>
+        <desc>I painted a married couple using acrylic paint.</desc>
+      </div>
+
+      <div class="slide-container" id = "drawing7S">
+        <exit onclick="slideExit()" id = "7">X</exit>
+        <!-- <arrow-left onclick="slideArrowClicked()"></arrow-left>
+        <arrow-right onclick="slideArrowClicked()"></arrow-right> -->
+        <img-container> <img src="drawing7.JPG"> </img-container>
+        <desc>I drew my mother using markers.</desc>
+      </div>
+
+      <div class="slide-container" id = "drawing8S">
+        <exit onclick="slideExit()" id = "8">X</exit>
+        <!-- <arrow-left onclick="slideArrowClicked()"></arrow-left>
+        <arrow-right onclick="slideArrowClicked()"></arrow-right> -->
+        <img-container> <img src="drawing9.png"> </img-container>
+        <desc>I drew a woman digitally, using software application Sketchbook.</desc>
+      </div>
+
+      <!-- <div class="slide-container" id = "drawing9S">
+        <exit onclick="slideExit()" id = "9">X</exit>
         <arrow-left onclick="slideArrowClicked()"></arrow-left>
         <arrow-right onclick="slideArrowClicked()"></arrow-right>
         <img-container> <img src="drawing15.JPEG"> </img-container>
         <desc>Hello bishes.</desc>
-      </div>
+      </div> -->
 
 </body>
 </html>
