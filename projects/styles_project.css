@@ -368,13 +368,13 @@ width: 100%;
       display: inline-block;
       height: 100px;
       width: 60px;
-      font-size: 16px;
+      font-size: 14px;
       margin: auto;
       text-align: center;
       justify-content: center;
       align-items: center;
       border-radius: 10px;
-      overflow: hidden;
+      /* overflow: ; */
     }
 
     .grid-item-trans-50-50 img {
@@ -502,26 +502,32 @@ width: 100%;
     }
 
     .arrow {
+      display: block;
       border-top:   10px solid #154a56;
       border-left:  8px solid transparent; 
       border-right: 8px solid transparent;
+      border-bottom: 0px;
       float: left;
+      height: 3px;
       margin-top: 5px;
-      margin-left: 5px;
+      margin-left: 3px;
     }
 
     .arrow:hover {
+      display: block;
       border-top:   10px solid #e3a23f;
       border-left:  8px solid transparent; 
       border-right: 8px solid transparent;
+      border-bottom: 0px solid #e3a23f;
       float: left;
       margin-top: 5px;
-      margin-left: 5px;
+      margin-left: 3px;
+      height: 3px;
     }
 
     .dropdown-text {
       font-size: 16px;
-      margin-left: 10px;
+      margin-left: 20px;
     }
 
     .dropdown-content {

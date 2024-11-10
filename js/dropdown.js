@@ -8,8 +8,12 @@ function dropDownClicked() {
       var dropdown = document.getElementById("dropdown1");
       if (dropdown.classList.contains('show')) {
         document.getElementById("dropdown-img-examples").style.display = 'none';
+        document.getElementById("dropdown-btn").style.borderBottom = '0px solid transparent';
+        document.getElementById("dropdown-btn").style.borderTop = '10px solid #154a56';
       } else {
         document.getElementById("dropdown-img-examples").style.display = 'inline-block';
+        document.getElementById("dropdown-btn").style.borderTop = '0px solid transparent';
+        document.getElementById("dropdown-btn").style.borderBottom = '10px solid #154a56';
       }
       document.getElementById("dropdown1").classList.toggle("show");
     } else if (event.target == document.getElementById('dropdown-btn2')) { // second button
