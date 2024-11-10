@@ -149,6 +149,7 @@ html {
   
   /* ------------------------- Navigation Bar -------------------------*/
   #homeNav {
+    z-index: 10 !important;
     border: 1px solid #b0e2ed;
     font-family: Baskerville;
     background-color: #eefcff;
