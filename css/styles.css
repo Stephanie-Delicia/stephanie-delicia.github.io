@@ -127,6 +127,7 @@ body {
   /* justify-content: space-between; */
   margin: auto auto;
   /* align-items: center; */
+  z-index: 100000 !important;
 }
 
 /* ---------------------- Style the links inside the navigation bar */
