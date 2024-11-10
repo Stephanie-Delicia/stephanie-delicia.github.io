@@ -431,6 +431,7 @@ textarea {
 }
 
 .submit-button {
+  cursor: pointer;
   border-radius: 4px;
   text-align: center;
   font-family: Baskerville;
@@ -472,6 +473,7 @@ input[type=submit] {
 /* Style 'hover' property */
 input[type=submit]:hover {
   background: #6bcae0;
+  cursor: pointer;
 }
 
 .centerText {
@@ -508,6 +510,40 @@ object {
 ul {
   padding-right: 10px;
   padding-left: 20px;
+}
+
+.generalContent link-button {
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: auto auto;
+  height: 30px;
+  width: 150px;
+  text-align: center;
+  font-size: 15px;
+  color: #eefcff;
+  place-content: center;
+  background-color: #157186;
+  border-radius: 4px;
+}
+
+.generalContent link-button text{
+  text-align: center;
+  font-size: 15px;
+  color: #eefcff;
+}
+
+.generalContent link-button text a{
+  text-decoration: none;
+  color: #eefcff;
+}
+
+.generalContent link-button:hover {
+  background: #6bcae0;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.2s;
 }
 
 /* --------------------- Space Block ---------------- */
