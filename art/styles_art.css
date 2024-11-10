@@ -30,11 +30,13 @@ html {
     height: 82.5%;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .slide-container img-container img {
     min-height: 10%;
     min-width: 10%;
+    max-height: 100%;
   }
 
   .slide-container desc {
