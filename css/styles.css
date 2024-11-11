@@ -399,6 +399,11 @@ width: 100%;
     color: #eefcff;
   }
 
+  .generalContent smolContent a {
+    text-decoration: none;
+    color: #eefcff;
+  }
+
   a:link {
     text-decoration: underline;
     color: #45a6bb;
@@ -555,6 +560,11 @@ ul {
   place-content: center;
   background-color: #157186;
   border-radius: 4px;
+}
+
+.generalContent a {
+  text-decoration: none;
+  color: #eefcff;
 }
 
 .generalContent link-button text {
