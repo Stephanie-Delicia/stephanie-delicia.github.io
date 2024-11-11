@@ -9,7 +9,7 @@ html {
 body {
   /* for SOME reason, setting margin to 0 eliminates any gaps to the left. */
   margin: 0;
-  min-width: 300px;
+  min-width: 200px;
 }
 
 
@@ -75,7 +75,7 @@ body {
 
 .introContent {
   width: 100%;
-  min-width: 300px;
+  min-width: 200px;
   max-width: 600px;
   padding-top: 10px;
   background-color: #ffffff;
@@ -83,7 +83,45 @@ body {
   font-size: 18px;
   margin: auto auto;
   text-align: center;
+  text-decoration: none;
   color: #298194;
+}
+
+.introContent button {
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  margin: auto auto;
+  height: 20px;
+  width: fit-content;
+  padding-left: 4px;
+  padding-right: 4px;
+  text-align: center;
+  font-size: 15px;
+  color: #eefcff;
+  place-content: center;
+  background-color: #157186;
+  border: 1px transparent;
+  border-radius: 4px;
+}
+
+.introContent button:hover {
+  display: inline-flex;
+  background: #6bcae0;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.introContent a {
+  text-decoration: none;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  color: #eefcff;
+  place-content: center;
 }
 
 /* ------------------------- Navigation Bar -------------------------*/
@@ -96,7 +134,7 @@ body {
   text-align: center;
   width: 100%;
   border-radius: 4px;
-  min-width: 300px;
+  min-width: 200px;
   max-width: 600px;
   overflow: hidden;
   display: block;
@@ -120,6 +158,7 @@ body {
 #homeNav tab-container {
   display: flex;
   flex-direction: row-reverse;
+  overflow: hidden;
 }
 
 #homeNav tab {
@@ -148,15 +187,6 @@ body {
   text-decoration: none;
 }
 
-/* Add a color to the active/current link */
-#homeNav tab.active {
-  background-color: #45a6bb;
-  text-align: center;
-  color: white;
-  border-radius: 4px;
-  margin-left: auto;
-}
-
 .content {
   padding-top: 100px;
   margin-left: 5%;
@@ -176,7 +206,7 @@ width: 100%;
   margin: auto auto;
   border: 1px solid #b0e2ed;
   background-color: #eefcff;
-  min-width: 300px;
+  min-width: 200px;
   max-width: 600px;
   scroll-margin-top: 5em;
   border-radius: 4px;
@@ -253,11 +283,11 @@ width: 100%;
   .headerProject {
     overflow-x: hidden;
     color: #298194;
-    font-size: 30;
+    font-size: 28px;
     margin: auto;
     text-align: center;
     max-width: 650px;
-    min-width: 300px;
+    min-width: 200px;
   }
 
   /* --------------------- Video ---------------- */
@@ -464,7 +494,7 @@ width: 100%;
       background-color: #ffffff00;
       margin: auto auto;
       width: 100%;
-      min-width: 300px;
+      min-width: 200px;
       max-width: 600px;
       padding-bottom: 30px;
       text-decoration: none;
@@ -588,7 +618,7 @@ width: 100%;
     text-align: center;
     width: 90%;
     border-radius: 4px;
-    min-width: 300px;
+    min-width: 200px;
     max-width: 600px;
     overflow: hidden;
     display: block;
@@ -646,7 +676,7 @@ width: 100%;
     text-align: center;
     width: 90%;
     border-radius: 4px;
-    min-width: 300px;
+    min-width: 200px;
     max-width: 600px;
     overflow: hidden;
     display: block;
@@ -711,19 +741,7 @@ width: 100%;
 }
 
 #homeNav tab {
-  margin-left: auto;
-  color: #041a32;
-  text-align: center;
-  width: 120px;
-  height: 18px;
-  padding: 15px;
-  text-decoration: none; 
   font-size: 13px;
-  display: inline-block;
-  text-align: center;
-  justify-content: center;
-  border-radius: 4px;
-  align-items: center;
 }
 
 .videoBox {
@@ -737,32 +755,15 @@ width: 100%;
 .headerProject {
   overflow-x: hidden;
   color: #298194;
-  font-size: 25;
+  font-size: 28px;
   margin: auto;
   text-align: center;
   max-width: 650px;
-  min-width: 300px;
+  min-width: 200px;
 }
 }
 
 @media screen and (max-width: 330px) {
-  #homeNav {
-    border: 1px solid #b0e2ed;
-    font-family: Baskerville;
-    background-color: #eefcff;
-    top: 0;
-    position: fixed;
-    text-align: center;
-    width: 90%;
-    border-radius: 4px;
-    min-width: 300px;
-    max-width: 600px;
-    overflow: hidden;
-    display: block;
-    transform: translateX(-50%);
-    left: 50%;
-    margin: auto auto;
-  }
 
   .grid-container-four {
     padding-top: 15px;
@@ -806,19 +807,5 @@ width: 100%;
     overflow: hidden; 
   }
 
-  #homeNav tab {
-    margin-left: auto;
-    color: #041a32;
-    text-align: center;
-    width: 120px;
-    height: 18px;
-    padding: 15px;
-    text-decoration: none; 
-    font-size: 10px;
-    display: inline-block;
-    text-align: center;
-    justify-content: center;
-    border-radius: 4px;
-    align-items: center;
-  }
+
 }
