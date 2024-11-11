@@ -1,7 +1,6 @@
 function drawingClicked() {
 }
-  
-  // Close the dropdown if the user clicks outside of it
+  // Open drawing fullscreen when clicked
   window.onclick = function(event) {
     var imageNames = ['drawing1', 'drawing2', "drawing3", 'drawing4', 
         'drawing5', 'drawing6', "drawing7", 'drawing8',

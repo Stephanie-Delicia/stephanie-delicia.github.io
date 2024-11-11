@@ -1,7 +1,7 @@
 function dropDownClicked() {
 }
-  
-  // Close the dropdown if the user clicks outside of it
+  // Opens dropdown for image transformation examples
+  // TODO: maybe a class diagram addition
   window.onclick = function(event) {
     if (event.target == document.getElementById('dropdown-btn')) {
       console.log("first button clicked");
